@@ -1,0 +1,130 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Archivo', ui-sans-serif, system-ui, sans-serif;
+
+  /* Cal: whitewashed walls. Tinta: the ink on municipal forms. */
+  --color-cal: #f8f8f6;
+  --color-cal-hondo: #efefeb;
+  --color-tinta: #1d1f24;
+  --color-tinta-2: #4a4e57;
+  --color-tinta-3: #6f747e;
+  --color-tinta-4: #a3a7ae;
+  --color-linea: rgb(29 31 36 / 0.1);
+  --color-linea-fuerte: rgb(29 31 36 / 0.18);
+
+  /* Añil: the indigo lime-wash of Andalusian plinths. The single accent. */
+  --color-anil-50: #eff2fa;
+  --color-anil-100: #dde4f5;
+  --color-anil-200: #bccbec;
+  --color-anil-500: #3557b7;
+  --color-anil-600: #27459e;
+  --color-anil-700: #1f3884;
+  --color-anil-800: #1a2e68;
+
+  /* Albero: the ochre sand of the Real. Used only around the map. */
+  --color-albero: #d9a646;
+  --color-albero-claro: #f2e3c2;
+
+  --color-status-free: #9aa0aa;
+  --color-status-error: #d0352d;
+  --color-status-pending: #e8890c;
+  --color-status-approved: #2e8a4b;
+
+  --radius-control: 6px;
+  --radius-panel: 12px;
+  --radius-sheet: 16px;
+
+  --shadow-panel: 0 0 0 1px rgb(29 31 36 / 0.07), 0 1px 2px -1px rgb(29 31 36 / 0.08),
+    0 2px 6px rgb(29 31 36 / 0.04);
+  --shadow-float: 0 0 0 1px rgb(29 31 36 / 0.08), 0 8px 24px -6px rgb(29 31 36 / 0.18);
+
+  --ease-out-snap: cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+@layer base {
+  html {
+    color-scheme: light;
+    -webkit-font-smoothing: antialiased;
+  }
+  body {
+    @apply bg-cal text-tinta;
+    font-family: var(--font-sans);
+    font-variation-settings: 'wdth' 100;
+  }
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-anil-600;
+  }
+}
+
+@utility font-cartel {
+  font-stretch: 75%;
+  font-variation-settings: 'wdth' 75;
+  letter-spacing: -0.01em;
+}
+
+@utility tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/*
+ * Toldo: the scalloped, striped valance hung along the front of every caseta.
+ * A stripe band on top, half-discs hanging below, both cut from one gradient.
+ */
+@utility toldo {
+  --toldo-a: var(--color-anil-700);
+  --toldo-b: var(--color-anil-100);
+  --toldo-w: 16px;
+  height: calc(var(--toldo-w) / 2 + 7px);
+  background: repeating-linear-gradient(
+    90deg,
+    var(--toldo-a) 0 var(--toldo-w),
+    var(--toldo-b) var(--toldo-w) calc(var(--toldo-w) * 2)
+  );
+  mask:
+    linear-gradient(#000 0 0) top / 100% 7px no-repeat,
+    radial-gradient(circle calc(var(--toldo-w) / 2) at 50% 0, #000 97%, transparent) bottom /
+      var(--toldo-w) calc(var(--toldo-w) / 2) repeat-x;
+}
+
+@keyframes caseta-pulse {
+  0%,
+  100% {
+    stroke-width: 3;
+    stroke-opacity: 1;
+  }
+  50% {
+    stroke-width: 6;
+    stroke-opacity: 0.5;
+  }
+}
+
+.caseta-pulse {
+  animation: caseta-pulse 1.4s ease-in-out infinite;
+}
+
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(4px) scale(0.98);
+  }
+}
+
+.rise-in {
+  animation: rise-in 180ms var(--ease-out-snap);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .caseta-pulse,
+  .rise-in {
+    animation: none;
+  }
+}

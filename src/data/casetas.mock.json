@@ -1,0 +1,4578 @@
+[
+  {
+    "number": 1,
+    "tags": [],
+    "status": "free",
+    "documents": []
+  },
+  {
+    "number": 2,
+    "tags": [],
+    "status": "free",
+    "documents": []
+  },
+  {
+    "number": 3,
+    "tags": [],
+    "status": "free",
+    "documents": []
+  },
+  {
+    "number": 4,
+    "name": "Asociación El Fino",
+    "cif": "G95492062",
+    "description": "Cocina de la tierra: pescaíto frito, tortillitas de camarones y rebujito.",
+    "traditional": false,
+    "tags": [
+      "flamenco",
+      "gastronomía"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-asociacion-el-fino.pdf",
+        "s3Key": "s3://laferia-docs/2027/4/estatutos-asociacion-el-fino.pdf",
+        "sizeBytes": 1134404,
+        "uploadedAt": "2026-03-04T16:06:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-asociacion-el-fino.pdf",
+        "s3Key": "s3://laferia-docs/2027/4/memoria-asociacion-el-fino.pdf",
+        "sizeBytes": 898990,
+        "uploadedAt": "2026-03-04T12:42:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-07T12:09:00.000Z"
+  },
+  {
+    "number": 5,
+    "name": "Asociación El Rocío",
+    "cif": "G91799395",
+    "description": "Espacio dedicado al mundo del caballo con exhibiciones y tertulias ecuestres.",
+    "traditional": false,
+    "tags": [
+      "privada",
+      "familiar",
+      "cocina andaluza"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-asociacion-el-rocio.pdf",
+        "s3Key": "s3://laferia-docs/2027/5/estatutos-asociacion-el-rocio.pdf",
+        "sizeBytes": 1595813,
+        "uploadedAt": "2026-03-25T13:01:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-asociacion-el-rocio.pdf",
+        "s3Key": "s3://laferia-docs/2027/5/memoria-asociacion-el-rocio.pdf",
+        "sizeBytes": 2543955,
+        "uploadedAt": "2026-03-25T17:26:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-28T12:18:00.000Z"
+  },
+  {
+    "number": 6,
+    "name": "Peña Flamenca La Yeguada",
+    "cif": "G95034377",
+    "description": "Cocina de la tierra: pescaíto frito, tortillitas de camarones y rebujito.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "infantil",
+      "flamenco"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-pena-flamenca-la-yeguada.pdf",
+        "s3Key": "s3://laferia-docs/2027/6/estatutos-pena-flamenca-la-yeguada.pdf",
+        "sizeBytes": 2424732,
+        "uploadedAt": "2026-03-10T14:22:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-pena-flamenca-la-yeguada.pdf",
+        "s3Key": "s3://laferia-docs/2027/6/memoria-pena-flamenca-la-yeguada.pdf",
+        "sizeBytes": 1277943,
+        "uploadedAt": "2026-03-10T14:43:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-13T12:12:00.000Z"
+  },
+  {
+    "number": 7,
+    "name": "Club Los Faroles",
+    "cif": "G81911117",
+    "description": "Punto de encuentro de socios y amigos con actuaciones de cante y baile en directo.",
+    "traditional": false,
+    "tags": [
+      "baile",
+      "gastronomía",
+      "flamenco",
+      "accesible"
+    ],
+    "status": "error",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-club-los-faroles.pdf",
+        "s3Key": "s3://laferia-docs/2027/7/estatutos-club-los-faroles.pdf",
+        "sizeBytes": 1005677,
+        "uploadedAt": "2026-03-10T11:17:00.000Z",
+        "status": "error",
+        "reviewNotes": "Falta la firma del secretario en la última página."
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-club-los-faroles.pdf",
+        "s3Key": "s3://laferia-docs/2027/7/memoria-club-los-faroles.pdf",
+        "sizeBytes": 2403955,
+        "uploadedAt": "2026-03-10T15:08:00.000Z",
+        "status": "error",
+        "reviewNotes": "La memoria no incluye el plano de distribución interior."
+      }
+    ],
+    "updatedAt": "2026-03-13T12:58:00.000Z"
+  },
+  {
+    "number": 8,
+    "tags": [],
+    "status": "free",
+    "documents": []
+  },
+  {
+    "number": 9,
+    "name": "Tertulia La Soleá",
+    "cif": "G65789166",
+    "description": "Punto de encuentro de socios y amigos con actuaciones de cante y baile en directo.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "sevillanas",
+      "pública"
+    ],
+    "status": "pending",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-tertulia-la-solea.pdf",
+        "s3Key": "s3://laferia-docs/2027/9/estatutos-tertulia-la-solea.pdf",
+        "sizeBytes": 1790816,
+        "uploadedAt": "2026-03-03T11:22:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-tertulia-la-solea.pdf",
+        "s3Key": "s3://laferia-docs/2027/9/memoria-tertulia-la-solea.pdf",
+        "sizeBytes": 203419,
+        "uploadedAt": "2026-03-03T10:49:00.000Z",
+        "status": "pending"
+      }
+    ],
+    "updatedAt": "2026-03-06T12:45:00.000Z"
+  },
+  {
+    "number": 10,
+    "tags": [],
+    "status": "free",
+    "documents": []
+  },
+  {
+    "number": 11,
+    "tags": [],
+    "status": "free",
+    "documents": []
+  },
+  {
+    "number": 12,
+    "name": "Hermandad de El Gallo",
+    "cif": "R7141554A",
+    "description": "Caseta pública abierta a todos los visitantes, con zona infantil y menú del día.",
+    "traditional": false,
+    "tags": [
+      "sevillanas",
+      "cocina andaluza",
+      "gastronomía",
+      "flamenco"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-hermandad-de-el-gallo.pdf",
+        "s3Key": "s3://laferia-docs/2027/12/estatutos-hermandad-de-el-gallo.pdf",
+        "sizeBytes": 846936,
+        "uploadedAt": "2026-03-13T09:51:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-hermandad-de-el-gallo.pdf",
+        "s3Key": "s3://laferia-docs/2027/12/memoria-hermandad-de-el-gallo.pdf",
+        "sizeBytes": 1486640,
+        "uploadedAt": "2026-03-13T15:43:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-16T12:37:00.000Z"
+  },
+  {
+    "number": 13,
+    "name": "Tertulia El Chato",
+    "cif": "G10779643",
+    "description": "Ambiente joven con sevillanas, rumba y una carta de vinos del Marco de Jerez.",
+    "traditional": false,
+    "tags": [
+      "accesible",
+      "hermandad",
+      "flamenco",
+      "familiar"
+    ],
+    "status": "pending",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-tertulia-el-chato.pdf",
+        "s3Key": "s3://laferia-docs/2027/13/estatutos-tertulia-el-chato.pdf",
+        "sizeBytes": 2480527,
+        "uploadedAt": "2026-03-07T12:02:00.000Z",
+        "status": "pending"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-tertulia-el-chato.pdf",
+        "s3Key": "s3://laferia-docs/2027/13/memoria-tertulia-el-chato.pdf",
+        "sizeBytes": 760087,
+        "uploadedAt": "2026-03-07T15:54:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-10T12:03:00.000Z"
+  },
+  {
+    "number": 14,
+    "tags": [],
+    "status": "free",
+    "documents": []
+  },
+  {
+    "number": 15,
+    "name": "Hermandad de Los Moriscos",
+    "cif": "R3851771J",
+    "description": "Cocina de la tierra: pescaíto frito, tortillitas de camarones y rebujito.",
+    "traditional": false,
+    "tags": [
+      "hermandad",
+      "música en directo",
+      "flamenco"
+    ],
+    "status": "error",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-hermandad-de-los-moriscos.pdf",
+        "s3Key": "s3://laferia-docs/2027/15/estatutos-hermandad-de-los-moriscos.pdf",
+        "sizeBytes": 1832399,
+        "uploadedAt": "2026-03-07T14:48:00.000Z",
+        "status": "error",
+        "reviewNotes": "Documento ilegible en las páginas 3 y 4."
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-hermandad-de-los-moriscos.pdf",
+        "s3Key": "s3://laferia-docs/2027/15/memoria-hermandad-de-los-moriscos.pdf",
+        "sizeBytes": 2289933,
+        "uploadedAt": "2026-03-07T11:52:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-10T12:17:00.000Z"
+  },
+  {
+    "number": 16,
+    "name": "Tertulia El Garbanzo",
+    "cif": "G75391789",
+    "description": "Caseta familiar con cocina tradicional andaluza y ambiente flamenco hasta la madrugada.",
+    "traditional": false,
+    "tags": [
+      "peña",
+      "música en directo",
+      "cocina andaluza"
+    ],
+    "status": "error",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-tertulia-el-garbanzo.pdf",
+        "s3Key": "s3://laferia-docs/2027/16/estatutos-tertulia-el-garbanzo.pdf",
+        "sizeBytes": 2053800,
+        "uploadedAt": "2026-03-23T11:52:00.000Z",
+        "status": "error",
+        "reviewNotes": "Documento ilegible en las páginas 3 y 4."
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-tertulia-el-garbanzo.pdf",
+        "s3Key": "s3://laferia-docs/2027/16/memoria-tertulia-el-garbanzo.pdf",
+        "sizeBytes": 339988,
+        "uploadedAt": "2026-03-23T13:44:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-26T12:42:00.000Z"
+  },
+  {
+    "number": 17,
+    "name": "Peña Caballista El Clavel",
+    "cif": "G08449068",
+    "description": "Espacio dedicado al mundo del caballo con exhibiciones y tertulias ecuestres.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "hermandad",
+      "accesible",
+      "cocina andaluza"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-pena-caballista-el-clavel.pdf",
+        "s3Key": "s3://laferia-docs/2027/17/estatutos-pena-caballista-el-clavel.pdf",
+        "sizeBytes": 1868845,
+        "uploadedAt": "2026-03-15T09:19:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-pena-caballista-el-clavel.pdf",
+        "s3Key": "s3://laferia-docs/2027/17/memoria-pena-caballista-el-clavel.pdf",
+        "sizeBytes": 599383,
+        "uploadedAt": "2026-03-15T16:53:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-18T12:49:00.000Z"
+  },
+  {
+    "number": 18,
+    "name": "Peña El Real",
+    "cif": "G88309760",
+    "description": "Cocina de la tierra: pescaíto frito, tortillitas de camarones y rebujito.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "cocina andaluza",
+      "mariscos",
+      "familiar"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-pena-el-real.pdf",
+        "s3Key": "s3://laferia-docs/2027/18/estatutos-pena-el-real.pdf",
+        "sizeBytes": 2221908,
+        "uploadedAt": "2026-03-22T17:04:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-pena-el-real.pdf",
+        "s3Key": "s3://laferia-docs/2027/18/memoria-pena-el-real.pdf",
+        "sizeBytes": 1613970,
+        "uploadedAt": "2026-03-22T16:30:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-25T12:20:00.000Z"
+  },
+  {
+    "number": 19,
+    "name": "Peña Caballista El Cante Jondo",
+    "cif": "G60442597",
+    "description": "Ambiente joven con sevillanas, rumba y una carta de vinos del Marco de Jerez.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "peña",
+      "sevillanas",
+      "flamenco",
+      "accesible"
+    ],
+    "status": "pending",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-pena-caballista-el-cante-jondo.pdf",
+        "s3Key": "s3://laferia-docs/2027/19/estatutos-pena-caballista-el-cante-jondo.pdf",
+        "sizeBytes": 582671,
+        "uploadedAt": "2026-03-06T12:58:00.000Z",
+        "status": "pending"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-pena-caballista-el-cante-jondo.pdf",
+        "s3Key": "s3://laferia-docs/2027/19/memoria-pena-caballista-el-cante-jondo.pdf",
+        "sizeBytes": 1997117,
+        "uploadedAt": "2026-03-06T14:50:00.000Z",
+        "status": "pending"
+      }
+    ],
+    "updatedAt": "2026-03-09T12:09:00.000Z"
+  },
+  {
+    "number": 20,
+    "name": "Asociación La Plazuela",
+    "cif": "G84003326",
+    "description": "Punto de encuentro de socios y amigos con actuaciones de cante y baile en directo.",
+    "traditional": false,
+    "tags": [
+      "familiar",
+      "vinos de Jerez",
+      "cocina andaluza"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-asociacion-la-plazuela.pdf",
+        "s3Key": "s3://laferia-docs/2027/20/estatutos-asociacion-la-plazuela.pdf",
+        "sizeBytes": 295173,
+        "uploadedAt": "2026-03-26T15:37:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-asociacion-la-plazuela.pdf",
+        "s3Key": "s3://laferia-docs/2027/20/memoria-asociacion-la-plazuela.pdf",
+        "sizeBytes": 2002223,
+        "uploadedAt": "2026-03-26T14:29:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-29T12:46:00.000Z"
+  },
+  {
+    "number": 21,
+    "name": "Cofradía de El Lebrillo",
+    "cif": "R9915680D",
+    "description": "Cocina de la tierra: pescaíto frito, tortillitas de camarones y rebujito.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "flamenco",
+      "pública"
+    ],
+    "status": "pending",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-cofradia-de-el-lebrillo.pdf",
+        "s3Key": "s3://laferia-docs/2027/21/estatutos-cofradia-de-el-lebrillo.pdf",
+        "sizeBytes": 1099625,
+        "uploadedAt": "2026-03-03T11:56:00.000Z",
+        "status": "pending"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-cofradia-de-el-lebrillo.pdf",
+        "s3Key": "s3://laferia-docs/2027/21/memoria-cofradia-de-el-lebrillo.pdf",
+        "sizeBytes": 1657772,
+        "uploadedAt": "2026-03-03T16:19:00.000Z",
+        "status": "pending"
+      }
+    ],
+    "updatedAt": "2026-03-06T12:44:00.000Z"
+  },
+  {
+    "number": 22,
+    "name": "Hermandad de Los Majuelos",
+    "cif": "R2986432I",
+    "description": "Cocina de la tierra: pescaíto frito, tortillitas de camarones y rebujito.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "flamenco",
+      "infantil",
+      "privada",
+      "música en directo"
+    ],
+    "status": "error",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-hermandad-de-los-majuelos.pdf",
+        "s3Key": "s3://laferia-docs/2027/22/estatutos-hermandad-de-los-majuelos.pdf",
+        "sizeBytes": 1285969,
+        "uploadedAt": "2026-03-16T12:12:00.000Z",
+        "status": "error",
+        "reviewNotes": "Documento ilegible en las páginas 3 y 4."
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-hermandad-de-los-majuelos.pdf",
+        "s3Key": "s3://laferia-docs/2027/22/memoria-hermandad-de-los-majuelos.pdf",
+        "sizeBytes": 377731,
+        "uploadedAt": "2026-03-16T17:23:00.000Z",
+        "status": "error",
+        "reviewNotes": "Falta el presupuesto de montaje y la póliza de responsabilidad civil."
+      }
+    ],
+    "updatedAt": "2026-03-19T12:04:00.000Z"
+  },
+  {
+    "number": 23,
+    "name": "Club El Enganche",
+    "cif": "G90180712",
+    "description": "Ambiente joven con sevillanas, rumba y una carta de vinos del Marco de Jerez.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "sevillanas",
+      "baile",
+      "privada",
+      "música en directo"
+    ],
+    "status": "error",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-club-el-enganche.pdf",
+        "s3Key": "s3://laferia-docs/2027/23/estatutos-club-el-enganche.pdf",
+        "sizeBytes": 228069,
+        "uploadedAt": "2026-03-27T14:06:00.000Z",
+        "status": "error",
+        "reviewNotes": "Los estatutos no están visados por el registro de asociaciones."
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-club-el-enganche.pdf",
+        "s3Key": "s3://laferia-docs/2027/23/memoria-club-el-enganche.pdf",
+        "sizeBytes": 1879590,
+        "uploadedAt": "2026-03-27T13:19:00.000Z",
+        "status": "error",
+        "reviewNotes": "La memoria no incluye el plano de distribución interior."
+      }
+    ],
+    "updatedAt": "2026-03-30T12:45:00.000Z"
+  },
+  {
+    "number": 24,
+    "name": "Peña La Cancela",
+    "cif": "G14962955",
+    "description": "Espacio dedicado al mundo del caballo con exhibiciones y tertulias ecuestres.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "gastronomía",
+      "música en directo",
+      "sevillanas",
+      "flamenco"
+    ],
+    "status": "error",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-pena-la-cancela.pdf",
+        "s3Key": "s3://laferia-docs/2027/24/estatutos-pena-la-cancela.pdf",
+        "sizeBytes": 1644843,
+        "uploadedAt": "2026-03-04T09:00:00.000Z",
+        "status": "error",
+        "reviewNotes": "Documento ilegible en las páginas 3 y 4."
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-pena-la-cancela.pdf",
+        "s3Key": "s3://laferia-docs/2027/24/memoria-pena-la-cancela.pdf",
+        "sizeBytes": 1460056,
+        "uploadedAt": "2026-03-04T11:37:00.000Z",
+        "status": "error",
+        "reviewNotes": "Falta el presupuesto de montaje y la póliza de responsabilidad civil."
+      }
+    ],
+    "updatedAt": "2026-03-07T12:25:00.000Z"
+  },
+  {
+    "number": 25,
+    "name": "Círculo Los Moriscos",
+    "cif": "G71827190",
+    "description": "Ambiente joven con sevillanas, rumba y una carta de vinos del Marco de Jerez.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "baile",
+      "familiar",
+      "cocina andaluza"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-circulo-los-moriscos.pdf",
+        "s3Key": "s3://laferia-docs/2027/25/estatutos-circulo-los-moriscos.pdf",
+        "sizeBytes": 2370235,
+        "uploadedAt": "2026-03-26T17:40:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-circulo-los-moriscos.pdf",
+        "s3Key": "s3://laferia-docs/2027/25/memoria-circulo-los-moriscos.pdf",
+        "sizeBytes": 767959,
+        "uploadedAt": "2026-03-26T14:58:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-29T12:18:00.000Z"
+  },
+  {
+    "number": 26,
+    "name": "Asociación El Gallo",
+    "cif": "G61669669",
+    "description": "Caseta pública abierta a todos los visitantes, con zona infantil y menú del día.",
+    "traditional": false,
+    "tags": [
+      "cocina andaluza",
+      "música en directo",
+      "familiar",
+      "flamenco"
+    ],
+    "status": "error",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-asociacion-el-gallo.pdf",
+        "s3Key": "s3://laferia-docs/2027/26/estatutos-asociacion-el-gallo.pdf",
+        "sizeBytes": 517451,
+        "uploadedAt": "2026-03-11T11:34:00.000Z",
+        "status": "error",
+        "reviewNotes": "Documento ilegible en las páginas 3 y 4."
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-asociacion-el-gallo.pdf",
+        "s3Key": "s3://laferia-docs/2027/26/memoria-asociacion-el-gallo.pdf",
+        "sizeBytes": 198711,
+        "uploadedAt": "2026-03-11T17:32:00.000Z",
+        "status": "error",
+        "reviewNotes": "No se indica el aforo máximo previsto."
+      }
+    ],
+    "updatedAt": "2026-03-14T12:01:00.000Z"
+  },
+  {
+    "number": 27,
+    "name": "Círculo El Enganche",
+    "cif": "G90273582",
+    "description": "Espacio dedicado al mundo del caballo con exhibiciones y tertulias ecuestres.",
+    "traditional": false,
+    "tags": [
+      "música en directo",
+      "hermandad"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-circulo-el-enganche.pdf",
+        "s3Key": "s3://laferia-docs/2027/27/estatutos-circulo-el-enganche.pdf",
+        "sizeBytes": 1051204,
+        "uploadedAt": "2026-03-25T12:06:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-circulo-el-enganche.pdf",
+        "s3Key": "s3://laferia-docs/2027/27/memoria-circulo-el-enganche.pdf",
+        "sizeBytes": 694477,
+        "uploadedAt": "2026-03-25T15:38:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-28T12:21:00.000Z"
+  },
+  {
+    "number": 28,
+    "name": "Círculo San Dionisio",
+    "cif": "G75349191",
+    "description": "Caseta de hermandad con decoración clásica de farolillos y mantones.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "flamenco",
+      "gastronomía",
+      "baile",
+      "infantil"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-circulo-san-dionisio.pdf",
+        "s3Key": "s3://laferia-docs/2027/28/estatutos-circulo-san-dionisio.pdf",
+        "sizeBytes": 2337228,
+        "uploadedAt": "2026-03-22T09:08:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-circulo-san-dionisio.pdf",
+        "s3Key": "s3://laferia-docs/2027/28/memoria-circulo-san-dionisio.pdf",
+        "sizeBytes": 821142,
+        "uploadedAt": "2026-03-22T16:58:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-25T12:10:00.000Z"
+  },
+  {
+    "number": 29,
+    "name": "Asociación La Calesa",
+    "cif": "G42794321",
+    "description": "Cocina de la tierra: pescaíto frito, tortillitas de camarones y rebujito.",
+    "traditional": false,
+    "tags": [
+      "vinos de Jerez",
+      "flamenco",
+      "privada"
+    ],
+    "status": "pending",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-asociacion-la-calesa.pdf",
+        "s3Key": "s3://laferia-docs/2027/29/estatutos-asociacion-la-calesa.pdf",
+        "sizeBytes": 2418158,
+        "uploadedAt": "2026-03-04T11:51:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-asociacion-la-calesa.pdf",
+        "s3Key": "s3://laferia-docs/2027/29/memoria-asociacion-la-calesa.pdf",
+        "sizeBytes": 843442,
+        "uploadedAt": "2026-03-04T13:42:00.000Z",
+        "status": "pending"
+      }
+    ],
+    "updatedAt": "2026-03-07T12:56:00.000Z"
+  },
+  {
+    "number": 30,
+    "tags": [],
+    "status": "free",
+    "documents": []
+  },
+  {
+    "number": 31,
+    "tags": [],
+    "status": "free",
+    "documents": []
+  },
+  {
+    "number": 32,
+    "tags": [],
+    "status": "free",
+    "documents": []
+  },
+  {
+    "number": 33,
+    "name": "Hermandad de La Granja",
+    "cif": "R0733806D",
+    "description": "Ambiente joven con sevillanas, rumba y una carta de vinos del Marco de Jerez.",
+    "traditional": false,
+    "tags": [
+      "música en directo",
+      "familiar"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-hermandad-de-la-granja.pdf",
+        "s3Key": "s3://laferia-docs/2027/33/estatutos-hermandad-de-la-granja.pdf",
+        "sizeBytes": 2372354,
+        "uploadedAt": "2026-03-27T09:23:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-hermandad-de-la-granja.pdf",
+        "s3Key": "s3://laferia-docs/2027/33/memoria-hermandad-de-la-granja.pdf",
+        "sizeBytes": 973037,
+        "uploadedAt": "2026-03-27T13:21:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-30T12:13:00.000Z"
+  },
+  {
+    "number": 34,
+    "tags": [],
+    "status": "free",
+    "documents": []
+  },
+  {
+    "number": 35,
+    "name": "Peña Caballista El Tablao",
+    "cif": "G46529640",
+    "description": "Caseta pública abierta a todos los visitantes, con zona infantil y menú del día.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "cocina andaluza",
+      "mariscos",
+      "accesible"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-pena-caballista-el-tablao.pdf",
+        "s3Key": "s3://laferia-docs/2027/35/estatutos-pena-caballista-el-tablao.pdf",
+        "sizeBytes": 1203261,
+        "uploadedAt": "2026-03-14T15:44:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-pena-caballista-el-tablao.pdf",
+        "s3Key": "s3://laferia-docs/2027/35/memoria-pena-caballista-el-tablao.pdf",
+        "sizeBytes": 2267272,
+        "uploadedAt": "2026-03-14T16:28:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-17T12:04:00.000Z"
+  },
+  {
+    "number": 36,
+    "name": "Cofradía de El Amontillado",
+    "cif": "R6416114D",
+    "description": "Caseta familiar con cocina tradicional andaluza y ambiente flamenco hasta la madrugada.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "mariscos",
+      "música en directo",
+      "familiar"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-cofradia-de-el-amontillado.pdf",
+        "s3Key": "s3://laferia-docs/2027/36/estatutos-cofradia-de-el-amontillado.pdf",
+        "sizeBytes": 382719,
+        "uploadedAt": "2026-03-21T14:28:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-cofradia-de-el-amontillado.pdf",
+        "s3Key": "s3://laferia-docs/2027/36/memoria-cofradia-de-el-amontillado.pdf",
+        "sizeBytes": 2317827,
+        "uploadedAt": "2026-03-21T12:23:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-24T12:42:00.000Z"
+  },
+  {
+    "number": 37,
+    "name": "Peña Caballista San Pedro",
+    "cif": "G88276712",
+    "description": "Caseta pública abierta a todos los visitantes, con zona infantil y menú del día.",
+    "traditional": false,
+    "tags": [
+      "peña",
+      "música en directo"
+    ],
+    "status": "pending",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-pena-caballista-san-pedro.pdf",
+        "s3Key": "s3://laferia-docs/2027/37/estatutos-pena-caballista-san-pedro.pdf",
+        "sizeBytes": 2227509,
+        "uploadedAt": "2026-03-23T13:13:00.000Z",
+        "status": "pending"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-pena-caballista-san-pedro.pdf",
+        "s3Key": "s3://laferia-docs/2027/37/memoria-pena-caballista-san-pedro.pdf",
+        "sizeBytes": 1013551,
+        "uploadedAt": "2026-03-23T09:03:00.000Z",
+        "status": "pending"
+      }
+    ],
+    "updatedAt": "2026-03-26T12:01:00.000Z"
+  },
+  {
+    "number": 38,
+    "name": "Asociación La Campiña",
+    "cif": "G36017978",
+    "description": "Caseta pública abierta a todos los visitantes, con zona infantil y menú del día.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "vinos de Jerez",
+      "accesible",
+      "baile"
+    ],
+    "status": "error",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-asociacion-la-campina.pdf",
+        "s3Key": "s3://laferia-docs/2027/38/estatutos-asociacion-la-campina.pdf",
+        "sizeBytes": 1965597,
+        "uploadedAt": "2026-03-15T15:04:00.000Z",
+        "status": "error",
+        "reviewNotes": "Documento ilegible en las páginas 3 y 4."
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-asociacion-la-campina.pdf",
+        "s3Key": "s3://laferia-docs/2027/38/memoria-asociacion-la-campina.pdf",
+        "sizeBytes": 493026,
+        "uploadedAt": "2026-03-15T09:29:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-18T12:48:00.000Z"
+  },
+  {
+    "number": 39,
+    "name": "Cofradía de El Ruedo",
+    "cif": "R6370868I",
+    "description": "Caseta de hermandad con decoración clásica de farolillos y mantones.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "cocina andaluza",
+      "gastronomía",
+      "accesible",
+      "infantil"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-cofradia-de-el-ruedo.pdf",
+        "s3Key": "s3://laferia-docs/2027/39/estatutos-cofradia-de-el-ruedo.pdf",
+        "sizeBytes": 2435519,
+        "uploadedAt": "2026-03-20T10:40:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-cofradia-de-el-ruedo.pdf",
+        "s3Key": "s3://laferia-docs/2027/39/memoria-cofradia-de-el-ruedo.pdf",
+        "sizeBytes": 1155578,
+        "uploadedAt": "2026-03-20T10:37:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-23T12:19:00.000Z"
+  },
+  {
+    "number": 40,
+    "tags": [],
+    "status": "free",
+    "documents": []
+  },
+  {
+    "number": 41,
+    "name": "Tertulia La Barquilla",
+    "cif": "G81554537",
+    "description": "Espacio dedicado al mundo del caballo con exhibiciones y tertulias ecuestres.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "infantil",
+      "música en directo"
+    ],
+    "status": "error",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-tertulia-la-barquilla.pdf",
+        "s3Key": "s3://laferia-docs/2027/41/estatutos-tertulia-la-barquilla.pdf",
+        "sizeBytes": 2507489,
+        "uploadedAt": "2026-03-22T17:02:00.000Z",
+        "status": "error",
+        "reviewNotes": "Falta la firma del secretario en la última página."
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-tertulia-la-barquilla.pdf",
+        "s3Key": "s3://laferia-docs/2027/41/memoria-tertulia-la-barquilla.pdf",
+        "sizeBytes": 2474856,
+        "uploadedAt": "2026-03-22T09:45:00.000Z",
+        "status": "error",
+        "reviewNotes": "Falta el presupuesto de montaje y la póliza de responsabilidad civil."
+      }
+    ],
+    "updatedAt": "2026-03-25T12:04:00.000Z"
+  },
+  {
+    "number": 42,
+    "name": "Peña Caballista La Bota",
+    "cif": "G94776424",
+    "description": "Caseta de hermandad con decoración clásica de farolillos y mantones.",
+    "traditional": false,
+    "tags": [
+      "peña",
+      "familiar",
+      "pública"
+    ],
+    "status": "error",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-pena-caballista-la-bota.pdf",
+        "s3Key": "s3://laferia-docs/2027/42/estatutos-pena-caballista-la-bota.pdf",
+        "sizeBytes": 955972,
+        "uploadedAt": "2026-03-02T11:31:00.000Z",
+        "status": "error",
+        "reviewNotes": "Los estatutos no están visados por el registro de asociaciones."
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-pena-caballista-la-bota.pdf",
+        "s3Key": "s3://laferia-docs/2027/42/memoria-pena-caballista-la-bota.pdf",
+        "sizeBytes": 402561,
+        "uploadedAt": "2026-03-02T09:06:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-05T12:36:00.000Z"
+  },
+  {
+    "number": 43,
+    "name": "Hermandad de La Guitarra",
+    "cif": "R2580847H",
+    "description": "Espacio dedicado al mundo del caballo con exhibiciones y tertulias ecuestres.",
+    "traditional": false,
+    "tags": [
+      "pública",
+      "gastronomía",
+      "hermandad"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-hermandad-de-la-guitarra.pdf",
+        "s3Key": "s3://laferia-docs/2027/43/estatutos-hermandad-de-la-guitarra.pdf",
+        "sizeBytes": 709397,
+        "uploadedAt": "2026-03-14T15:40:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-hermandad-de-la-guitarra.pdf",
+        "s3Key": "s3://laferia-docs/2027/43/memoria-hermandad-de-la-guitarra.pdf",
+        "sizeBytes": 1404344,
+        "uploadedAt": "2026-03-14T15:45:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-17T12:11:00.000Z"
+  },
+  {
+    "number": 44,
+    "name": "Peña Caballista El Enganche",
+    "cif": "G92358951",
+    "description": "Cocina de la tierra: pescaíto frito, tortillitas de camarones y rebujito.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "cocina andaluza",
+      "peña",
+      "vinos de Jerez"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-pena-caballista-el-enganche.pdf",
+        "s3Key": "s3://laferia-docs/2027/44/estatutos-pena-caballista-el-enganche.pdf",
+        "sizeBytes": 231507,
+        "uploadedAt": "2026-03-21T16:10:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-pena-caballista-el-enganche.pdf",
+        "s3Key": "s3://laferia-docs/2027/44/memoria-pena-caballista-el-enganche.pdf",
+        "sizeBytes": 759771,
+        "uploadedAt": "2026-03-21T12:06:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-24T12:38:00.000Z"
+  },
+  {
+    "number": 45,
+    "name": "Asociación El Guadalete",
+    "cif": "G19856152",
+    "description": "Espacio dedicado al mundo del caballo con exhibiciones y tertulias ecuestres.",
+    "traditional": false,
+    "tags": [
+      "infantil",
+      "hermandad"
+    ],
+    "status": "pending",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-asociacion-el-guadalete.pdf",
+        "s3Key": "s3://laferia-docs/2027/45/estatutos-asociacion-el-guadalete.pdf",
+        "sizeBytes": 1135273,
+        "uploadedAt": "2026-03-04T15:37:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-asociacion-el-guadalete.pdf",
+        "s3Key": "s3://laferia-docs/2027/45/memoria-asociacion-el-guadalete.pdf",
+        "sizeBytes": 2047468,
+        "uploadedAt": "2026-03-04T11:06:00.000Z",
+        "status": "pending"
+      }
+    ],
+    "updatedAt": "2026-03-07T12:38:00.000Z"
+  },
+  {
+    "number": 46,
+    "tags": [],
+    "status": "free",
+    "documents": []
+  },
+  {
+    "number": 47,
+    "tags": [],
+    "status": "free",
+    "documents": []
+  },
+  {
+    "number": 48,
+    "tags": [],
+    "status": "free",
+    "documents": []
+  },
+  {
+    "number": 49,
+    "name": "Círculo La Gitanería",
+    "cif": "G29577830",
+    "description": "Punto de encuentro de socios y amigos con actuaciones de cante y baile en directo.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "accesible",
+      "pública"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-circulo-la-gitaneria.pdf",
+        "s3Key": "s3://laferia-docs/2027/49/estatutos-circulo-la-gitaneria.pdf",
+        "sizeBytes": 2514975,
+        "uploadedAt": "2026-03-14T09:26:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-circulo-la-gitaneria.pdf",
+        "s3Key": "s3://laferia-docs/2027/49/memoria-circulo-la-gitaneria.pdf",
+        "sizeBytes": 951255,
+        "uploadedAt": "2026-03-14T14:23:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-17T12:57:00.000Z"
+  },
+  {
+    "number": 50,
+    "name": "Hermandad de La Plazuela",
+    "cif": "R2685741G",
+    "description": "Caseta pública abierta a todos los visitantes, con zona infantil y menú del día.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "flamenco",
+      "privada",
+      "infantil"
+    ],
+    "status": "pending",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-hermandad-de-la-plazuela.pdf",
+        "s3Key": "s3://laferia-docs/2027/50/estatutos-hermandad-de-la-plazuela.pdf",
+        "sizeBytes": 1903608,
+        "uploadedAt": "2026-03-13T17:06:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-hermandad-de-la-plazuela.pdf",
+        "s3Key": "s3://laferia-docs/2027/50/memoria-hermandad-de-la-plazuela.pdf",
+        "sizeBytes": 685205,
+        "uploadedAt": "2026-03-13T11:34:00.000Z",
+        "status": "pending"
+      }
+    ],
+    "updatedAt": "2026-03-16T12:42:00.000Z"
+  },
+  {
+    "number": 51,
+    "name": "Círculo La Soleá",
+    "cif": "G94730439",
+    "description": "Ambiente joven con sevillanas, rumba y una carta de vinos del Marco de Jerez.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "música en directo",
+      "sevillanas"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-circulo-la-solea.pdf",
+        "s3Key": "s3://laferia-docs/2027/51/estatutos-circulo-la-solea.pdf",
+        "sizeBytes": 811195,
+        "uploadedAt": "2026-03-06T13:56:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-circulo-la-solea.pdf",
+        "s3Key": "s3://laferia-docs/2027/51/memoria-circulo-la-solea.pdf",
+        "sizeBytes": 2119959,
+        "uploadedAt": "2026-03-06T09:14:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-09T12:17:00.000Z"
+  },
+  {
+    "number": 52,
+    "name": "Asociación La Guitarra",
+    "cif": "G98874902",
+    "description": "Ambiente joven con sevillanas, rumba y una carta de vinos del Marco de Jerez.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "vinos de Jerez",
+      "baile",
+      "infantil"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-asociacion-la-guitarra.pdf",
+        "s3Key": "s3://laferia-docs/2027/52/estatutos-asociacion-la-guitarra.pdf",
+        "sizeBytes": 1921777,
+        "uploadedAt": "2026-03-28T10:32:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-asociacion-la-guitarra.pdf",
+        "s3Key": "s3://laferia-docs/2027/52/memoria-asociacion-la-guitarra.pdf",
+        "sizeBytes": 2468715,
+        "uploadedAt": "2026-03-28T12:22:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-31T12:49:00.000Z"
+  },
+  {
+    "number": 53,
+    "name": "Peña El Lebrillo",
+    "cif": "G24502072",
+    "description": "Caseta de hermandad con decoración clásica de farolillos y mantones.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "familiar",
+      "hermandad",
+      "pública",
+      "privada"
+    ],
+    "status": "error",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-pena-el-lebrillo.pdf",
+        "s3Key": "s3://laferia-docs/2027/53/estatutos-pena-el-lebrillo.pdf",
+        "sizeBytes": 2031092,
+        "uploadedAt": "2026-03-05T09:54:00.000Z",
+        "status": "error",
+        "reviewNotes": "Los estatutos no están visados por el registro de asociaciones."
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-pena-el-lebrillo.pdf",
+        "s3Key": "s3://laferia-docs/2027/53/memoria-pena-el-lebrillo.pdf",
+        "sizeBytes": 687237,
+        "uploadedAt": "2026-03-05T12:59:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-08T12:14:00.000Z"
+  },
+  {
+    "number": 54,
+    "name": "Hermandad de El Lebrillo",
+    "cif": "R7905229F",
+    "description": "Cocina de la tierra: pescaíto frito, tortillitas de camarones y rebujito.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "baile",
+      "mariscos",
+      "cocina andaluza"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-hermandad-de-el-lebrillo.pdf",
+        "s3Key": "s3://laferia-docs/2027/54/estatutos-hermandad-de-el-lebrillo.pdf",
+        "sizeBytes": 1419278,
+        "uploadedAt": "2026-03-24T15:25:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-hermandad-de-el-lebrillo.pdf",
+        "s3Key": "s3://laferia-docs/2027/54/memoria-hermandad-de-el-lebrillo.pdf",
+        "sizeBytes": 2413899,
+        "uploadedAt": "2026-03-24T10:33:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-27T12:13:00.000Z"
+  },
+  {
+    "number": 55,
+    "name": "Club La Cartuja",
+    "cif": "G98513682",
+    "description": "Punto de encuentro de socios y amigos con actuaciones de cante y baile en directo.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "peña",
+      "mariscos",
+      "familiar",
+      "cocina andaluza"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-club-la-cartuja.pdf",
+        "s3Key": "s3://laferia-docs/2027/55/estatutos-club-la-cartuja.pdf",
+        "sizeBytes": 1982288,
+        "uploadedAt": "2026-03-09T12:14:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-club-la-cartuja.pdf",
+        "s3Key": "s3://laferia-docs/2027/55/memoria-club-la-cartuja.pdf",
+        "sizeBytes": 2179839,
+        "uploadedAt": "2026-03-09T13:30:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-12T12:46:00.000Z"
+  },
+  {
+    "number": 56,
+    "tags": [],
+    "status": "free",
+    "documents": []
+  },
+  {
+    "number": 57,
+    "name": "Cofradía de Los Faroles",
+    "cif": "R1285523E",
+    "description": "Espacio dedicado al mundo del caballo con exhibiciones y tertulias ecuestres.",
+    "traditional": false,
+    "tags": [
+      "baile",
+      "mariscos",
+      "infantil",
+      "cocina andaluza"
+    ],
+    "status": "pending",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-cofradia-de-los-faroles.pdf",
+        "s3Key": "s3://laferia-docs/2027/57/estatutos-cofradia-de-los-faroles.pdf",
+        "sizeBytes": 2069735,
+        "uploadedAt": "2026-03-07T13:48:00.000Z",
+        "status": "pending"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-cofradia-de-los-faroles.pdf",
+        "s3Key": "s3://laferia-docs/2027/57/memoria-cofradia-de-los-faroles.pdf",
+        "sizeBytes": 898236,
+        "uploadedAt": "2026-03-07T17:01:00.000Z",
+        "status": "pending"
+      }
+    ],
+    "updatedAt": "2026-03-10T12:58:00.000Z"
+  },
+  {
+    "number": 58,
+    "name": "Peña El Picadero",
+    "cif": "G72411010",
+    "description": "Espacio dedicado al mundo del caballo con exhibiciones y tertulias ecuestres.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "mariscos",
+      "infantil"
+    ],
+    "status": "error",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-pena-el-picadero.pdf",
+        "s3Key": "s3://laferia-docs/2027/58/estatutos-pena-el-picadero.pdf",
+        "sizeBytes": 1870476,
+        "uploadedAt": "2026-03-02T10:36:00.000Z",
+        "status": "error",
+        "reviewNotes": "Documento ilegible en las páginas 3 y 4."
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-pena-el-picadero.pdf",
+        "s3Key": "s3://laferia-docs/2027/58/memoria-pena-el-picadero.pdf",
+        "sizeBytes": 906856,
+        "uploadedAt": "2026-03-02T14:47:00.000Z",
+        "status": "error",
+        "reviewNotes": "Falta el presupuesto de montaje y la póliza de responsabilidad civil."
+      }
+    ],
+    "updatedAt": "2026-03-05T12:43:00.000Z"
+  },
+  {
+    "number": 59,
+    "name": "Cofradía de Santo Domingo",
+    "cif": "R8860814F",
+    "description": "Cocina de la tierra: pescaíto frito, tortillitas de camarones y rebujito.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "baile",
+      "mariscos",
+      "familiar",
+      "música en directo"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-cofradia-de-santo-domingo.pdf",
+        "s3Key": "s3://laferia-docs/2027/59/estatutos-cofradia-de-santo-domingo.pdf",
+        "sizeBytes": 519066,
+        "uploadedAt": "2026-03-27T09:33:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-cofradia-de-santo-domingo.pdf",
+        "s3Key": "s3://laferia-docs/2027/59/memoria-cofradia-de-santo-domingo.pdf",
+        "sizeBytes": 1438560,
+        "uploadedAt": "2026-03-27T10:37:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-30T12:45:00.000Z"
+  },
+  {
+    "number": 60,
+    "name": "Círculo La Barquilla",
+    "cif": "G35380948",
+    "description": "Ambiente joven con sevillanas, rumba y una carta de vinos del Marco de Jerez.",
+    "traditional": false,
+    "tags": [
+      "mariscos",
+      "flamenco",
+      "gastronomía"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-circulo-la-barquilla.pdf",
+        "s3Key": "s3://laferia-docs/2027/60/estatutos-circulo-la-barquilla.pdf",
+        "sizeBytes": 712259,
+        "uploadedAt": "2026-03-09T15:25:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-circulo-la-barquilla.pdf",
+        "s3Key": "s3://laferia-docs/2027/60/memoria-circulo-la-barquilla.pdf",
+        "sizeBytes": 2089313,
+        "uploadedAt": "2026-03-09T17:40:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-12T12:53:00.000Z"
+  },
+  {
+    "number": 61,
+    "tags": [],
+    "status": "free",
+    "documents": []
+  },
+  {
+    "number": 62,
+    "name": "Peña La Bulería",
+    "cif": "G64827215",
+    "description": "Caseta de hermandad con decoración clásica de farolillos y mantones.",
+    "traditional": false,
+    "tags": [
+      "hermandad",
+      "mariscos",
+      "música en directo",
+      "gastronomía"
+    ],
+    "status": "error",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-pena-la-buleria.pdf",
+        "s3Key": "s3://laferia-docs/2027/62/estatutos-pena-la-buleria.pdf",
+        "sizeBytes": 682757,
+        "uploadedAt": "2026-03-23T10:02:00.000Z",
+        "status": "error",
+        "reviewNotes": "Falta la firma del secretario en la última página."
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-pena-la-buleria.pdf",
+        "s3Key": "s3://laferia-docs/2027/62/memoria-pena-la-buleria.pdf",
+        "sizeBytes": 1601513,
+        "uploadedAt": "2026-03-23T14:57:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-26T12:21:00.000Z"
+  },
+  {
+    "number": 63,
+    "name": "Tertulia La Alameda",
+    "cif": "G23220551",
+    "description": "Caseta de hermandad con decoración clásica de farolillos y mantones.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "privada",
+      "pública",
+      "gastronomía"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-tertulia-la-alameda.pdf",
+        "s3Key": "s3://laferia-docs/2027/63/estatutos-tertulia-la-alameda.pdf",
+        "sizeBytes": 1401160,
+        "uploadedAt": "2026-03-18T10:18:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-tertulia-la-alameda.pdf",
+        "s3Key": "s3://laferia-docs/2027/63/memoria-tertulia-la-alameda.pdf",
+        "sizeBytes": 542707,
+        "uploadedAt": "2026-03-18T09:23:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-21T12:06:00.000Z"
+  },
+  {
+    "number": 64,
+    "tags": [],
+    "status": "free",
+    "documents": []
+  },
+  {
+    "number": 65,
+    "name": "Círculo El Templete",
+    "cif": "G47430426",
+    "description": "Caseta pública abierta a todos los visitantes, con zona infantil y menú del día.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "música en directo",
+      "flamenco",
+      "baile"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-circulo-el-templete.pdf",
+        "s3Key": "s3://laferia-docs/2027/65/estatutos-circulo-el-templete.pdf",
+        "sizeBytes": 2333295,
+        "uploadedAt": "2026-03-16T12:11:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-circulo-el-templete.pdf",
+        "s3Key": "s3://laferia-docs/2027/65/memoria-circulo-el-templete.pdf",
+        "sizeBytes": 2034640,
+        "uploadedAt": "2026-03-16T15:10:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-19T12:56:00.000Z"
+  },
+  {
+    "number": 66,
+    "name": "Círculo La Feria Chica",
+    "cif": "G04176152",
+    "description": "Caseta de hermandad con decoración clásica de farolillos y mantones.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "flamenco",
+      "privada",
+      "pública"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-circulo-la-feria-chica.pdf",
+        "s3Key": "s3://laferia-docs/2027/66/estatutos-circulo-la-feria-chica.pdf",
+        "sizeBytes": 633692,
+        "uploadedAt": "2026-03-18T13:55:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-circulo-la-feria-chica.pdf",
+        "s3Key": "s3://laferia-docs/2027/66/memoria-circulo-la-feria-chica.pdf",
+        "sizeBytes": 381684,
+        "uploadedAt": "2026-03-18T11:18:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-21T12:39:00.000Z"
+  },
+  {
+    "number": 67,
+    "name": "Asociación El Ejido",
+    "cif": "G08061509",
+    "description": "Espacio dedicado al mundo del caballo con exhibiciones y tertulias ecuestres.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "familiar",
+      "peña"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-asociacion-el-ejido.pdf",
+        "s3Key": "s3://laferia-docs/2027/67/estatutos-asociacion-el-ejido.pdf",
+        "sizeBytes": 165933,
+        "uploadedAt": "2026-03-23T16:30:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-asociacion-el-ejido.pdf",
+        "s3Key": "s3://laferia-docs/2027/67/memoria-asociacion-el-ejido.pdf",
+        "sizeBytes": 1453920,
+        "uploadedAt": "2026-03-23T09:19:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-26T12:02:00.000Z"
+  },
+  {
+    "number": 68,
+    "name": "Asociación Cultural Los Corrales",
+    "cif": "G29545936",
+    "description": "Caseta familiar con cocina tradicional andaluza y ambiente flamenco hasta la madrugada.",
+    "traditional": false,
+    "tags": [
+      "baile",
+      "música en directo"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-asociacion-cultural-los-corrales.pdf",
+        "s3Key": "s3://laferia-docs/2027/68/estatutos-asociacion-cultural-los-corrales.pdf",
+        "sizeBytes": 2359713,
+        "uploadedAt": "2026-03-20T17:52:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-asociacion-cultural-los-corrales.pdf",
+        "s3Key": "s3://laferia-docs/2027/68/memoria-asociacion-cultural-los-corrales.pdf",
+        "sizeBytes": 1119727,
+        "uploadedAt": "2026-03-20T14:39:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-23T12:33:00.000Z"
+  },
+  {
+    "number": 69,
+    "name": "Club El Amontillado",
+    "cif": "G51430817",
+    "description": "Caseta familiar con cocina tradicional andaluza y ambiente flamenco hasta la madrugada.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "sevillanas",
+      "familiar"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-club-el-amontillado.pdf",
+        "s3Key": "s3://laferia-docs/2027/69/estatutos-club-el-amontillado.pdf",
+        "sizeBytes": 2193559,
+        "uploadedAt": "2026-03-26T12:53:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-club-el-amontillado.pdf",
+        "s3Key": "s3://laferia-docs/2027/69/memoria-club-el-amontillado.pdf",
+        "sizeBytes": 447956,
+        "uploadedAt": "2026-03-26T15:07:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-29T12:07:00.000Z"
+  },
+  {
+    "number": 70,
+    "tags": [],
+    "status": "free",
+    "documents": []
+  },
+  {
+    "number": 71,
+    "name": "Tertulia El Vino Fino",
+    "cif": "G75749168",
+    "description": "Ambiente joven con sevillanas, rumba y una carta de vinos del Marco de Jerez.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "accesible",
+      "pública",
+      "peña",
+      "cocina andaluza"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-tertulia-el-vino-fino.pdf",
+        "s3Key": "s3://laferia-docs/2027/71/estatutos-tertulia-el-vino-fino.pdf",
+        "sizeBytes": 254294,
+        "uploadedAt": "2026-03-27T09:55:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-tertulia-el-vino-fino.pdf",
+        "s3Key": "s3://laferia-docs/2027/71/memoria-tertulia-el-vino-fino.pdf",
+        "sizeBytes": 1818590,
+        "uploadedAt": "2026-03-27T13:12:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-30T12:10:00.000Z"
+  },
+  {
+    "number": 72,
+    "name": "Peña Flamenca Los Majuelos",
+    "cif": "G92863422",
+    "description": "Caseta pública abierta a todos los visitantes, con zona infantil y menú del día.",
+    "traditional": false,
+    "tags": [
+      "cocina andaluza",
+      "vinos de Jerez",
+      "peña"
+    ],
+    "status": "error",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-pena-flamenca-los-majuelos.pdf",
+        "s3Key": "s3://laferia-docs/2027/72/estatutos-pena-flamenca-los-majuelos.pdf",
+        "sizeBytes": 696164,
+        "uploadedAt": "2026-03-04T13:03:00.000Z",
+        "status": "error",
+        "reviewNotes": "Los estatutos no están visados por el registro de asociaciones."
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-pena-flamenca-los-majuelos.pdf",
+        "s3Key": "s3://laferia-docs/2027/72/memoria-pena-flamenca-los-majuelos.pdf",
+        "sizeBytes": 877940,
+        "uploadedAt": "2026-03-04T17:33:00.000Z",
+        "status": "error",
+        "reviewNotes": "Falta el presupuesto de montaje y la póliza de responsabilidad civil."
+      }
+    ],
+    "updatedAt": "2026-03-07T12:19:00.000Z"
+  },
+  {
+    "number": 73,
+    "name": "Cofradía de La Alameda",
+    "cif": "R8895387B",
+    "description": "Ambiente joven con sevillanas, rumba y una carta de vinos del Marco de Jerez.",
+    "traditional": false,
+    "tags": [
+      "familiar",
+      "vinos de Jerez",
+      "baile"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-cofradia-de-la-alameda.pdf",
+        "s3Key": "s3://laferia-docs/2027/73/estatutos-cofradia-de-la-alameda.pdf",
+        "sizeBytes": 323786,
+        "uploadedAt": "2026-03-08T13:29:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-cofradia-de-la-alameda.pdf",
+        "s3Key": "s3://laferia-docs/2027/73/memoria-cofradia-de-la-alameda.pdf",
+        "sizeBytes": 1751250,
+        "uploadedAt": "2026-03-08T16:28:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-11T12:45:00.000Z"
+  },
+  {
+    "number": 74,
+    "name": "Círculo El Mirador",
+    "cif": "G40296816",
+    "description": "Ambiente joven con sevillanas, rumba y una carta de vinos del Marco de Jerez.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "accesible",
+      "infantil",
+      "flamenco",
+      "peña"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-circulo-el-mirador.pdf",
+        "s3Key": "s3://laferia-docs/2027/74/estatutos-circulo-el-mirador.pdf",
+        "sizeBytes": 1692065,
+        "uploadedAt": "2026-03-04T15:34:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-circulo-el-mirador.pdf",
+        "s3Key": "s3://laferia-docs/2027/74/memoria-circulo-el-mirador.pdf",
+        "sizeBytes": 1319381,
+        "uploadedAt": "2026-03-04T13:42:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-07T12:32:00.000Z"
+  },
+  {
+    "number": 75,
+    "name": "Cofradía de Los Cabales",
+    "cif": "R5184615B",
+    "description": "Cocina de la tierra: pescaíto frito, tortillitas de camarones y rebujito.",
+    "traditional": false,
+    "tags": [
+      "privada",
+      "música en directo",
+      "pública"
+    ],
+    "status": "error",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-cofradia-de-los-cabales.pdf",
+        "s3Key": "s3://laferia-docs/2027/75/estatutos-cofradia-de-los-cabales.pdf",
+        "sizeBytes": 670856,
+        "uploadedAt": "2026-03-14T14:08:00.000Z",
+        "status": "error",
+        "reviewNotes": "Los estatutos no están visados por el registro de asociaciones."
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-cofradia-de-los-cabales.pdf",
+        "s3Key": "s3://laferia-docs/2027/75/memoria-cofradia-de-los-cabales.pdf",
+        "sizeBytes": 2448407,
+        "uploadedAt": "2026-03-14T13:13:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-17T12:31:00.000Z"
+  },
+  {
+    "number": 76,
+    "name": "Peña Flamenca El Lagar",
+    "cif": "G52870615",
+    "description": "Caseta de hermandad con decoración clásica de farolillos y mantones.",
+    "traditional": false,
+    "tags": [
+      "privada",
+      "gastronomía"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-pena-flamenca-el-lagar.pdf",
+        "s3Key": "s3://laferia-docs/2027/76/estatutos-pena-flamenca-el-lagar.pdf",
+        "sizeBytes": 327550,
+        "uploadedAt": "2026-03-26T16:15:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-pena-flamenca-el-lagar.pdf",
+        "s3Key": "s3://laferia-docs/2027/76/memoria-pena-flamenca-el-lagar.pdf",
+        "sizeBytes": 364689,
+        "uploadedAt": "2026-03-26T14:18:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-29T12:20:00.000Z"
+  },
+  {
+    "number": 77,
+    "name": "Círculo La Campiña",
+    "cif": "G32053977",
+    "description": "Punto de encuentro de socios y amigos con actuaciones de cante y baile en directo.",
+    "traditional": false,
+    "tags": [
+      "baile",
+      "gastronomía"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-circulo-la-campina.pdf",
+        "s3Key": "s3://laferia-docs/2027/77/estatutos-circulo-la-campina.pdf",
+        "sizeBytes": 1061085,
+        "uploadedAt": "2026-03-06T11:53:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-circulo-la-campina.pdf",
+        "s3Key": "s3://laferia-docs/2027/77/memoria-circulo-la-campina.pdf",
+        "sizeBytes": 1619935,
+        "uploadedAt": "2026-03-06T17:55:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-09T12:20:00.000Z"
+  },
+  {
+    "number": 78,
+    "tags": [],
+    "status": "free",
+    "documents": []
+  },
+  {
+    "number": 79,
+    "name": "Peña Flamenca Las Marismas",
+    "cif": "G15350622",
+    "description": "Caseta pública abierta a todos los visitantes, con zona infantil y menú del día.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "peña",
+      "música en directo",
+      "familiar",
+      "pública"
+    ],
+    "status": "error",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-pena-flamenca-las-marismas.pdf",
+        "s3Key": "s3://laferia-docs/2027/79/estatutos-pena-flamenca-las-marismas.pdf",
+        "sizeBytes": 1734969,
+        "uploadedAt": "2026-03-26T09:46:00.000Z",
+        "status": "error",
+        "reviewNotes": "Documento ilegible en las páginas 3 y 4."
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-pena-flamenca-las-marismas.pdf",
+        "s3Key": "s3://laferia-docs/2027/79/memoria-pena-flamenca-las-marismas.pdf",
+        "sizeBytes": 1549249,
+        "uploadedAt": "2026-03-26T16:30:00.000Z",
+        "status": "error",
+        "reviewNotes": "No se indica el aforo máximo previsto."
+      }
+    ],
+    "updatedAt": "2026-03-29T12:09:00.000Z"
+  },
+  {
+    "number": 80,
+    "name": "Peña Caballista El Retiro",
+    "cif": "G59942763",
+    "description": "Caseta de hermandad con decoración clásica de farolillos y mantones.",
+    "traditional": false,
+    "tags": [
+      "cocina andaluza",
+      "familiar",
+      "vinos de Jerez",
+      "hermandad"
+    ],
+    "status": "pending",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-pena-caballista-el-retiro.pdf",
+        "s3Key": "s3://laferia-docs/2027/80/estatutos-pena-caballista-el-retiro.pdf",
+        "sizeBytes": 1491881,
+        "uploadedAt": "2026-03-04T17:20:00.000Z",
+        "status": "pending"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-pena-caballista-el-retiro.pdf",
+        "s3Key": "s3://laferia-docs/2027/80/memoria-pena-caballista-el-retiro.pdf",
+        "sizeBytes": 2453804,
+        "uploadedAt": "2026-03-04T15:47:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-07T12:41:00.000Z"
+  },
+  {
+    "number": 81,
+    "name": "Tertulia El Mirador",
+    "cif": "G23518640",
+    "description": "Espacio dedicado al mundo del caballo con exhibiciones y tertulias ecuestres.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "mariscos",
+      "flamenco",
+      "familiar"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-tertulia-el-mirador.pdf",
+        "s3Key": "s3://laferia-docs/2027/81/estatutos-tertulia-el-mirador.pdf",
+        "sizeBytes": 1547114,
+        "uploadedAt": "2026-03-01T15:50:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-tertulia-el-mirador.pdf",
+        "s3Key": "s3://laferia-docs/2027/81/memoria-tertulia-el-mirador.pdf",
+        "sizeBytes": 2093797,
+        "uploadedAt": "2026-03-01T15:23:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-04T12:56:00.000Z"
+  },
+  {
+    "number": 82,
+    "name": "Círculo Los Arcos",
+    "cif": "G14407621",
+    "description": "Caseta pública abierta a todos los visitantes, con zona infantil y menú del día.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "sevillanas",
+      "vinos de Jerez",
+      "accesible"
+    ],
+    "status": "pending",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-circulo-los-arcos.pdf",
+        "s3Key": "s3://laferia-docs/2027/82/estatutos-circulo-los-arcos.pdf",
+        "sizeBytes": 1063228,
+        "uploadedAt": "2026-03-04T17:06:00.000Z",
+        "status": "pending"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-circulo-los-arcos.pdf",
+        "s3Key": "s3://laferia-docs/2027/82/memoria-circulo-los-arcos.pdf",
+        "sizeBytes": 806304,
+        "uploadedAt": "2026-03-04T13:30:00.000Z",
+        "status": "pending"
+      }
+    ],
+    "updatedAt": "2026-03-07T12:38:00.000Z"
+  },
+  {
+    "number": 83,
+    "name": "Peña Flamenca La Merced",
+    "cif": "G94250925",
+    "description": "Espacio dedicado al mundo del caballo con exhibiciones y tertulias ecuestres.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "vinos de Jerez",
+      "privada"
+    ],
+    "status": "error",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-pena-flamenca-la-merced.pdf",
+        "s3Key": "s3://laferia-docs/2027/83/estatutos-pena-flamenca-la-merced.pdf",
+        "sizeBytes": 1411224,
+        "uploadedAt": "2026-03-01T09:06:00.000Z",
+        "status": "error",
+        "reviewNotes": "Los estatutos no están visados por el registro de asociaciones."
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-pena-flamenca-la-merced.pdf",
+        "s3Key": "s3://laferia-docs/2027/83/memoria-pena-flamenca-la-merced.pdf",
+        "sizeBytes": 983424,
+        "uploadedAt": "2026-03-01T11:59:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-04T12:06:00.000Z"
+  },
+  {
+    "number": 84,
+    "tags": [],
+    "status": "free",
+    "documents": []
+  },
+  {
+    "number": 85,
+    "name": "Peña Caballista La Tribuna",
+    "cif": "G59031153",
+    "description": "Caseta pública abierta a todos los visitantes, con zona infantil y menú del día.",
+    "traditional": false,
+    "tags": [
+      "infantil",
+      "pública",
+      "hermandad",
+      "privada"
+    ],
+    "status": "pending",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-pena-caballista-la-tribuna.pdf",
+        "s3Key": "s3://laferia-docs/2027/85/estatutos-pena-caballista-la-tribuna.pdf",
+        "sizeBytes": 2391230,
+        "uploadedAt": "2026-03-10T11:04:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-pena-caballista-la-tribuna.pdf",
+        "s3Key": "s3://laferia-docs/2027/85/memoria-pena-caballista-la-tribuna.pdf",
+        "sizeBytes": 987133,
+        "uploadedAt": "2026-03-10T15:25:00.000Z",
+        "status": "pending"
+      }
+    ],
+    "updatedAt": "2026-03-13T12:35:00.000Z"
+  },
+  {
+    "number": 86,
+    "name": "Club Los Cascabeles",
+    "cif": "G36507697",
+    "description": "Ambiente joven con sevillanas, rumba y una carta de vinos del Marco de Jerez.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "privada",
+      "pública",
+      "vinos de Jerez",
+      "sevillanas"
+    ],
+    "status": "pending",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-club-los-cascabeles.pdf",
+        "s3Key": "s3://laferia-docs/2027/86/estatutos-club-los-cascabeles.pdf",
+        "sizeBytes": 802165,
+        "uploadedAt": "2026-03-20T15:15:00.000Z",
+        "status": "pending"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-club-los-cascabeles.pdf",
+        "s3Key": "s3://laferia-docs/2027/86/memoria-club-los-cascabeles.pdf",
+        "sizeBytes": 1434267,
+        "uploadedAt": "2026-03-20T16:12:00.000Z",
+        "status": "pending"
+      }
+    ],
+    "updatedAt": "2026-03-23T12:38:00.000Z"
+  },
+  {
+    "number": 87,
+    "name": "Peña Flamenca El Picadero",
+    "cif": "G91495440",
+    "description": "Espacio dedicado al mundo del caballo con exhibiciones y tertulias ecuestres.",
+    "traditional": false,
+    "tags": [
+      "infantil",
+      "familiar"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-pena-flamenca-el-picadero.pdf",
+        "s3Key": "s3://laferia-docs/2027/87/estatutos-pena-flamenca-el-picadero.pdf",
+        "sizeBytes": 504067,
+        "uploadedAt": "2026-03-18T14:37:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-pena-flamenca-el-picadero.pdf",
+        "s3Key": "s3://laferia-docs/2027/87/memoria-pena-flamenca-el-picadero.pdf",
+        "sizeBytes": 2256937,
+        "uploadedAt": "2026-03-18T11:33:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-21T12:36:00.000Z"
+  },
+  {
+    "number": 88,
+    "tags": [],
+    "status": "free",
+    "documents": []
+  },
+  {
+    "number": 89,
+    "name": "Tertulia Los Jinetes",
+    "cif": "G19992387",
+    "description": "Espacio dedicado al mundo del caballo con exhibiciones y tertulias ecuestres.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "infantil",
+      "familiar"
+    ],
+    "status": "pending",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-tertulia-los-jinetes.pdf",
+        "s3Key": "s3://laferia-docs/2027/89/estatutos-tertulia-los-jinetes.pdf",
+        "sizeBytes": 453542,
+        "uploadedAt": "2026-03-14T09:35:00.000Z",
+        "status": "pending"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-tertulia-los-jinetes.pdf",
+        "s3Key": "s3://laferia-docs/2027/89/memoria-tertulia-los-jinetes.pdf",
+        "sizeBytes": 308260,
+        "uploadedAt": "2026-03-14T12:48:00.000Z",
+        "status": "pending"
+      }
+    ],
+    "updatedAt": "2026-03-17T12:59:00.000Z"
+  },
+  {
+    "number": 90,
+    "name": "Asociación Cultural El Templete",
+    "cif": "G05341334",
+    "description": "Espacio dedicado al mundo del caballo con exhibiciones y tertulias ecuestres.",
+    "traditional": false,
+    "tags": [
+      "peña",
+      "infantil",
+      "privada"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-asociacion-cultural-el-templete.pdf",
+        "s3Key": "s3://laferia-docs/2027/90/estatutos-asociacion-cultural-el-templete.pdf",
+        "sizeBytes": 1982175,
+        "uploadedAt": "2026-03-16T10:41:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-asociacion-cultural-el-templete.pdf",
+        "s3Key": "s3://laferia-docs/2027/90/memoria-asociacion-cultural-el-templete.pdf",
+        "sizeBytes": 846596,
+        "uploadedAt": "2026-03-16T11:18:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-19T12:29:00.000Z"
+  },
+  {
+    "number": 91,
+    "name": "Asociación Cultural La Barquilla",
+    "cif": "G65367492",
+    "description": "Caseta de hermandad con decoración clásica de farolillos y mantones.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "gastronomía",
+      "infantil",
+      "familiar",
+      "baile"
+    ],
+    "status": "error",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-asociacion-cultural-la-barquilla.pdf",
+        "s3Key": "s3://laferia-docs/2027/91/estatutos-asociacion-cultural-la-barquilla.pdf",
+        "sizeBytes": 363444,
+        "uploadedAt": "2026-03-06T10:29:00.000Z",
+        "status": "error",
+        "reviewNotes": "Los estatutos no están visados por el registro de asociaciones."
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-asociacion-cultural-la-barquilla.pdf",
+        "s3Key": "s3://laferia-docs/2027/91/memoria-asociacion-cultural-la-barquilla.pdf",
+        "sizeBytes": 1171885,
+        "uploadedAt": "2026-03-06T15:11:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-09T12:33:00.000Z"
+  },
+  {
+    "number": 92,
+    "name": "Círculo La Alegría",
+    "cif": "G57385809",
+    "description": "Punto de encuentro de socios y amigos con actuaciones de cante y baile en directo.",
+    "traditional": false,
+    "tags": [
+      "privada",
+      "gastronomía"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-circulo-la-alegria.pdf",
+        "s3Key": "s3://laferia-docs/2027/92/estatutos-circulo-la-alegria.pdf",
+        "sizeBytes": 2239441,
+        "uploadedAt": "2026-03-03T13:30:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-circulo-la-alegria.pdf",
+        "s3Key": "s3://laferia-docs/2027/92/memoria-circulo-la-alegria.pdf",
+        "sizeBytes": 1292345,
+        "uploadedAt": "2026-03-03T14:59:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-06T12:49:00.000Z"
+  },
+  {
+    "number": 93,
+    "tags": [],
+    "status": "free",
+    "documents": []
+  },
+  {
+    "number": 94,
+    "name": "Tertulia El Patio",
+    "cif": "G63230189",
+    "description": "Cocina de la tierra: pescaíto frito, tortillitas de camarones y rebujito.",
+    "traditional": false,
+    "tags": [
+      "familiar",
+      "peña",
+      "baile"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-tertulia-el-patio.pdf",
+        "s3Key": "s3://laferia-docs/2027/94/estatutos-tertulia-el-patio.pdf",
+        "sizeBytes": 1349328,
+        "uploadedAt": "2026-03-24T11:27:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-tertulia-el-patio.pdf",
+        "s3Key": "s3://laferia-docs/2027/94/memoria-tertulia-el-patio.pdf",
+        "sizeBytes": 607179,
+        "uploadedAt": "2026-03-24T17:13:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-27T12:23:00.000Z"
+  },
+  {
+    "number": 95,
+    "name": "Peña Flamenca El Alcázar",
+    "cif": "G23220999",
+    "description": "Caseta pública abierta a todos los visitantes, con zona infantil y menú del día.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "hermandad",
+      "cocina andaluza",
+      "vinos de Jerez"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-pena-flamenca-el-alcazar.pdf",
+        "s3Key": "s3://laferia-docs/2027/95/estatutos-pena-flamenca-el-alcazar.pdf",
+        "sizeBytes": 1446091,
+        "uploadedAt": "2026-03-11T09:03:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-pena-flamenca-el-alcazar.pdf",
+        "s3Key": "s3://laferia-docs/2027/95/memoria-pena-flamenca-el-alcazar.pdf",
+        "sizeBytes": 1705278,
+        "uploadedAt": "2026-03-11T15:48:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-14T12:15:00.000Z"
+  },
+  {
+    "number": 96,
+    "name": "Hermandad de Los Hermanos Moneo",
+    "cif": "R3932728C",
+    "description": "Caseta pública abierta a todos los visitantes, con zona infantil y menú del día.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "privada",
+      "pública"
+    ],
+    "status": "pending",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-hermandad-de-los-hermanos-moneo.pdf",
+        "s3Key": "s3://laferia-docs/2027/96/estatutos-hermandad-de-los-hermanos-moneo.pdf",
+        "sizeBytes": 1214305,
+        "uploadedAt": "2026-03-21T14:12:00.000Z",
+        "status": "pending"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-hermandad-de-los-hermanos-moneo.pdf",
+        "s3Key": "s3://laferia-docs/2027/96/memoria-hermandad-de-los-hermanos-moneo.pdf",
+        "sizeBytes": 806522,
+        "uploadedAt": "2026-03-21T09:23:00.000Z",
+        "status": "pending"
+      }
+    ],
+    "updatedAt": "2026-03-24T12:22:00.000Z"
+  },
+  {
+    "number": 97,
+    "name": "Hermandad de La Atalaya",
+    "cif": "R4128729C",
+    "description": "Punto de encuentro de socios y amigos con actuaciones de cante y baile en directo.",
+    "traditional": false,
+    "tags": [
+      "baile",
+      "pública",
+      "privada",
+      "hermandad"
+    ],
+    "status": "pending",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-hermandad-de-la-atalaya.pdf",
+        "s3Key": "s3://laferia-docs/2027/97/estatutos-hermandad-de-la-atalaya.pdf",
+        "sizeBytes": 475303,
+        "uploadedAt": "2026-03-21T11:37:00.000Z",
+        "status": "pending"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-hermandad-de-la-atalaya.pdf",
+        "s3Key": "s3://laferia-docs/2027/97/memoria-hermandad-de-la-atalaya.pdf",
+        "sizeBytes": 794026,
+        "uploadedAt": "2026-03-21T11:47:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-24T12:11:00.000Z"
+  },
+  {
+    "number": 98,
+    "name": "Círculo La Pandereta",
+    "cif": "G31161151",
+    "description": "Espacio dedicado al mundo del caballo con exhibiciones y tertulias ecuestres.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "familiar",
+      "sevillanas"
+    ],
+    "status": "error",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-circulo-la-pandereta.pdf",
+        "s3Key": "s3://laferia-docs/2027/98/estatutos-circulo-la-pandereta.pdf",
+        "sizeBytes": 675041,
+        "uploadedAt": "2026-03-27T17:20:00.000Z",
+        "status": "error",
+        "reviewNotes": "Documento ilegible en las páginas 3 y 4."
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-circulo-la-pandereta.pdf",
+        "s3Key": "s3://laferia-docs/2027/98/memoria-circulo-la-pandereta.pdf",
+        "sizeBytes": 539669,
+        "uploadedAt": "2026-03-27T12:35:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-30T12:15:00.000Z"
+  },
+  {
+    "number": 99,
+    "name": "Hermandad de La Sacristía",
+    "cif": "R7331333J",
+    "description": "Caseta pública abierta a todos los visitantes, con zona infantil y menú del día.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "vinos de Jerez",
+      "baile",
+      "hermandad"
+    ],
+    "status": "error",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-hermandad-de-la-sacristia.pdf",
+        "s3Key": "s3://laferia-docs/2027/99/estatutos-hermandad-de-la-sacristia.pdf",
+        "sizeBytes": 1804580,
+        "uploadedAt": "2026-03-21T09:53:00.000Z",
+        "status": "error",
+        "reviewNotes": "Documento ilegible en las páginas 3 y 4."
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-hermandad-de-la-sacristia.pdf",
+        "s3Key": "s3://laferia-docs/2027/99/memoria-hermandad-de-la-sacristia.pdf",
+        "sizeBytes": 2181481,
+        "uploadedAt": "2026-03-21T12:19:00.000Z",
+        "status": "error",
+        "reviewNotes": "Falta el presupuesto de montaje y la póliza de responsabilidad civil."
+      }
+    ],
+    "updatedAt": "2026-03-24T12:19:00.000Z"
+  },
+  {
+    "number": 100,
+    "name": "Tertulia El Ejido",
+    "cif": "G48607196",
+    "description": "Caseta de hermandad con decoración clásica de farolillos y mantones.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "infantil",
+      "música en directo",
+      "familiar",
+      "accesible"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-tertulia-el-ejido.pdf",
+        "s3Key": "s3://laferia-docs/2027/100/estatutos-tertulia-el-ejido.pdf",
+        "sizeBytes": 1099951,
+        "uploadedAt": "2026-03-28T17:13:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-tertulia-el-ejido.pdf",
+        "s3Key": "s3://laferia-docs/2027/100/memoria-tertulia-el-ejido.pdf",
+        "sizeBytes": 1493571,
+        "uploadedAt": "2026-03-28T12:06:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-31T12:32:00.000Z"
+  },
+  {
+    "number": 101,
+    "name": "Cofradía de La Calesa",
+    "cif": "R6562379E",
+    "description": "Cocina de la tierra: pescaíto frito, tortillitas de camarones y rebujito.",
+    "traditional": false,
+    "tags": [
+      "mariscos",
+      "infantil",
+      "sevillanas"
+    ],
+    "status": "error",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-cofradia-de-la-calesa.pdf",
+        "s3Key": "s3://laferia-docs/2027/101/estatutos-cofradia-de-la-calesa.pdf",
+        "sizeBytes": 840776,
+        "uploadedAt": "2026-03-05T14:45:00.000Z",
+        "status": "error",
+        "reviewNotes": "Documento ilegible en las páginas 3 y 4."
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-cofradia-de-la-calesa.pdf",
+        "s3Key": "s3://laferia-docs/2027/101/memoria-cofradia-de-la-calesa.pdf",
+        "sizeBytes": 302527,
+        "uploadedAt": "2026-03-05T16:07:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-08T12:58:00.000Z"
+  },
+  {
+    "number": 102,
+    "tags": [],
+    "status": "free",
+    "documents": []
+  },
+  {
+    "number": 103,
+    "name": "Peña Los Romeros",
+    "cif": "G04941829",
+    "description": "Caseta pública abierta a todos los visitantes, con zona infantil y menú del día.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "sevillanas",
+      "privada"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-pena-los-romeros.pdf",
+        "s3Key": "s3://laferia-docs/2027/103/estatutos-pena-los-romeros.pdf",
+        "sizeBytes": 600707,
+        "uploadedAt": "2026-03-16T11:29:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-pena-los-romeros.pdf",
+        "s3Key": "s3://laferia-docs/2027/103/memoria-pena-los-romeros.pdf",
+        "sizeBytes": 983566,
+        "uploadedAt": "2026-03-16T12:06:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-19T12:18:00.000Z"
+  },
+  {
+    "number": 104,
+    "name": "Cofradía de La Bota",
+    "cif": "R1075821G",
+    "description": "Cocina de la tierra: pescaíto frito, tortillitas de camarones y rebujito.",
+    "traditional": false,
+    "tags": [
+      "música en directo",
+      "mariscos"
+    ],
+    "status": "pending",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-cofradia-de-la-bota.pdf",
+        "s3Key": "s3://laferia-docs/2027/104/estatutos-cofradia-de-la-bota.pdf",
+        "sizeBytes": 2276608,
+        "uploadedAt": "2026-03-04T10:31:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-cofradia-de-la-bota.pdf",
+        "s3Key": "s3://laferia-docs/2027/104/memoria-cofradia-de-la-bota.pdf",
+        "sizeBytes": 851437,
+        "uploadedAt": "2026-03-04T17:47:00.000Z",
+        "status": "pending"
+      }
+    ],
+    "updatedAt": "2026-03-07T12:04:00.000Z"
+  },
+  {
+    "number": 105,
+    "tags": [],
+    "status": "free",
+    "documents": []
+  },
+  {
+    "number": 106,
+    "tags": [],
+    "status": "free",
+    "documents": []
+  },
+  {
+    "number": 107,
+    "name": "Peña Flamenca El Vino Fino",
+    "cif": "G38711107",
+    "description": "Caseta familiar con cocina tradicional andaluza y ambiente flamenco hasta la madrugada.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "gastronomía",
+      "cocina andaluza"
+    ],
+    "status": "pending",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-pena-flamenca-el-vino-fino.pdf",
+        "s3Key": "s3://laferia-docs/2027/107/estatutos-pena-flamenca-el-vino-fino.pdf",
+        "sizeBytes": 1726824,
+        "uploadedAt": "2026-03-26T10:52:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-pena-flamenca-el-vino-fino.pdf",
+        "s3Key": "s3://laferia-docs/2027/107/memoria-pena-flamenca-el-vino-fino.pdf",
+        "sizeBytes": 1300168,
+        "uploadedAt": "2026-03-26T15:03:00.000Z",
+        "status": "pending"
+      }
+    ],
+    "updatedAt": "2026-03-29T12:25:00.000Z"
+  },
+  {
+    "number": 108,
+    "tags": [],
+    "status": "free",
+    "documents": []
+  },
+  {
+    "number": 109,
+    "name": "Hermandad de Los Romeros",
+    "cif": "R5676055F",
+    "description": "Caseta pública abierta a todos los visitantes, con zona infantil y menú del día.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "hermandad",
+      "privada",
+      "pública",
+      "familiar"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-hermandad-de-los-romeros.pdf",
+        "s3Key": "s3://laferia-docs/2027/109/estatutos-hermandad-de-los-romeros.pdf",
+        "sizeBytes": 1761343,
+        "uploadedAt": "2026-03-21T16:05:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-hermandad-de-los-romeros.pdf",
+        "s3Key": "s3://laferia-docs/2027/109/memoria-hermandad-de-los-romeros.pdf",
+        "sizeBytes": 2088680,
+        "uploadedAt": "2026-03-21T11:41:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-24T12:23:00.000Z"
+  },
+  {
+    "number": 110,
+    "name": "Peña Caballista El Arenal",
+    "cif": "G64284821",
+    "description": "Punto de encuentro de socios y amigos con actuaciones de cante y baile en directo.",
+    "traditional": false,
+    "tags": [
+      "vinos de Jerez",
+      "pública"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-pena-caballista-el-arenal.pdf",
+        "s3Key": "s3://laferia-docs/2027/110/estatutos-pena-caballista-el-arenal.pdf",
+        "sizeBytes": 734953,
+        "uploadedAt": "2026-03-18T16:04:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-pena-caballista-el-arenal.pdf",
+        "s3Key": "s3://laferia-docs/2027/110/memoria-pena-caballista-el-arenal.pdf",
+        "sizeBytes": 1243082,
+        "uploadedAt": "2026-03-18T17:23:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-21T12:20:00.000Z"
+  },
+  {
+    "number": 111,
+    "tags": [],
+    "status": "free",
+    "documents": []
+  },
+  {
+    "number": 112,
+    "name": "Hermandad de El Templete",
+    "cif": "R7167312C",
+    "description": "Ambiente joven con sevillanas, rumba y una carta de vinos del Marco de Jerez.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "cocina andaluza",
+      "pública"
+    ],
+    "status": "pending",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-hermandad-de-el-templete.pdf",
+        "s3Key": "s3://laferia-docs/2027/112/estatutos-hermandad-de-el-templete.pdf",
+        "sizeBytes": 1482288,
+        "uploadedAt": "2026-03-10T17:54:00.000Z",
+        "status": "pending"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-hermandad-de-el-templete.pdf",
+        "s3Key": "s3://laferia-docs/2027/112/memoria-hermandad-de-el-templete.pdf",
+        "sizeBytes": 414326,
+        "uploadedAt": "2026-03-10T12:01:00.000Z",
+        "status": "pending"
+      }
+    ],
+    "updatedAt": "2026-03-13T12:06:00.000Z"
+  },
+  {
+    "number": 113,
+    "tags": [],
+    "status": "free",
+    "documents": []
+  },
+  {
+    "number": 114,
+    "name": "Peña Flamenca El Pañuelo",
+    "cif": "G23814072",
+    "description": "Cocina de la tierra: pescaíto frito, tortillitas de camarones y rebujito.",
+    "traditional": false,
+    "tags": [
+      "familiar",
+      "pública",
+      "mariscos",
+      "vinos de Jerez"
+    ],
+    "status": "pending",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-pena-flamenca-el-panuelo.pdf",
+        "s3Key": "s3://laferia-docs/2027/114/estatutos-pena-flamenca-el-panuelo.pdf",
+        "sizeBytes": 1431069,
+        "uploadedAt": "2026-03-06T14:46:00.000Z",
+        "status": "pending"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-pena-flamenca-el-panuelo.pdf",
+        "s3Key": "s3://laferia-docs/2027/114/memoria-pena-flamenca-el-panuelo.pdf",
+        "sizeBytes": 746533,
+        "uploadedAt": "2026-03-06T11:09:00.000Z",
+        "status": "pending"
+      }
+    ],
+    "updatedAt": "2026-03-09T12:31:00.000Z"
+  },
+  {
+    "number": 115,
+    "name": "Tertulia Los Corrales",
+    "cif": "G05123500",
+    "description": "Ambiente joven con sevillanas, rumba y una carta de vinos del Marco de Jerez.",
+    "traditional": false,
+    "tags": [
+      "mariscos",
+      "hermandad"
+    ],
+    "status": "pending",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-tertulia-los-corrales.pdf",
+        "s3Key": "s3://laferia-docs/2027/115/estatutos-tertulia-los-corrales.pdf",
+        "sizeBytes": 2406451,
+        "uploadedAt": "2026-03-10T15:23:00.000Z",
+        "status": "pending"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-tertulia-los-corrales.pdf",
+        "s3Key": "s3://laferia-docs/2027/115/memoria-tertulia-los-corrales.pdf",
+        "sizeBytes": 1375316,
+        "uploadedAt": "2026-03-10T16:01:00.000Z",
+        "status": "pending"
+      }
+    ],
+    "updatedAt": "2026-03-13T12:32:00.000Z"
+  },
+  {
+    "number": 116,
+    "name": "Peña La Tribuna",
+    "cif": "G43666692",
+    "description": "Punto de encuentro de socios y amigos con actuaciones de cante y baile en directo.",
+    "traditional": false,
+    "tags": [
+      "privada",
+      "flamenco",
+      "familiar",
+      "mariscos"
+    ],
+    "status": "error",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-pena-la-tribuna.pdf",
+        "s3Key": "s3://laferia-docs/2027/116/estatutos-pena-la-tribuna.pdf",
+        "sizeBytes": 1696538,
+        "uploadedAt": "2026-03-15T12:35:00.000Z",
+        "status": "error",
+        "reviewNotes": "Falta la firma del secretario en la última página."
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-pena-la-tribuna.pdf",
+        "s3Key": "s3://laferia-docs/2027/116/memoria-pena-la-tribuna.pdf",
+        "sizeBytes": 1580931,
+        "uploadedAt": "2026-03-15T17:39:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-18T12:19:00.000Z"
+  },
+  {
+    "number": 117,
+    "tags": [],
+    "status": "free",
+    "documents": []
+  },
+  {
+    "number": 118,
+    "name": "Cofradía de Los Tientos",
+    "cif": "R4596065E",
+    "description": "Caseta familiar con cocina tradicional andaluza y ambiente flamenco hasta la madrugada.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "mariscos",
+      "pública"
+    ],
+    "status": "error",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-cofradia-de-los-tientos.pdf",
+        "s3Key": "s3://laferia-docs/2027/118/estatutos-cofradia-de-los-tientos.pdf",
+        "sizeBytes": 1652080,
+        "uploadedAt": "2026-03-02T11:25:00.000Z",
+        "status": "error",
+        "reviewNotes": "Documento ilegible en las páginas 3 y 4."
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-cofradia-de-los-tientos.pdf",
+        "s3Key": "s3://laferia-docs/2027/118/memoria-cofradia-de-los-tientos.pdf",
+        "sizeBytes": 159389,
+        "uploadedAt": "2026-03-02T13:48:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-05T12:43:00.000Z"
+  },
+  {
+    "number": 119,
+    "tags": [],
+    "status": "free",
+    "documents": []
+  },
+  {
+    "number": 120,
+    "name": "Hermandad de El Enganche",
+    "cif": "R6777429I",
+    "description": "Espacio dedicado al mundo del caballo con exhibiciones y tertulias ecuestres.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "pública",
+      "infantil",
+      "vinos de Jerez",
+      "familiar"
+    ],
+    "status": "pending",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-hermandad-de-el-enganche.pdf",
+        "s3Key": "s3://laferia-docs/2027/120/estatutos-hermandad-de-el-enganche.pdf",
+        "sizeBytes": 2196497,
+        "uploadedAt": "2026-03-22T14:23:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-hermandad-de-el-enganche.pdf",
+        "s3Key": "s3://laferia-docs/2027/120/memoria-hermandad-de-el-enganche.pdf",
+        "sizeBytes": 152019,
+        "uploadedAt": "2026-03-22T17:53:00.000Z",
+        "status": "pending"
+      }
+    ],
+    "updatedAt": "2026-03-25T12:08:00.000Z"
+  },
+  {
+    "number": 121,
+    "name": "Círculo Los del Puerto",
+    "cif": "G54539473",
+    "description": "Punto de encuentro de socios y amigos con actuaciones de cante y baile en directo.",
+    "traditional": false,
+    "tags": [
+      "música en directo",
+      "gastronomía",
+      "sevillanas",
+      "flamenco"
+    ],
+    "status": "error",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-circulo-los-del-puerto.pdf",
+        "s3Key": "s3://laferia-docs/2027/121/estatutos-circulo-los-del-puerto.pdf",
+        "sizeBytes": 2537064,
+        "uploadedAt": "2026-03-08T13:01:00.000Z",
+        "status": "error",
+        "reviewNotes": "Documento ilegible en las páginas 3 y 4."
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-circulo-los-del-puerto.pdf",
+        "s3Key": "s3://laferia-docs/2027/121/memoria-circulo-los-del-puerto.pdf",
+        "sizeBytes": 1994449,
+        "uploadedAt": "2026-03-08T12:28:00.000Z",
+        "status": "error",
+        "reviewNotes": "Falta el presupuesto de montaje y la póliza de responsabilidad civil."
+      }
+    ],
+    "updatedAt": "2026-03-11T12:20:00.000Z"
+  },
+  {
+    "number": 122,
+    "name": "Cofradía de La Platería",
+    "cif": "R3370237D",
+    "description": "Caseta familiar con cocina tradicional andaluza y ambiente flamenco hasta la madrugada.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "privada",
+      "infantil"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-cofradia-de-la-plateria.pdf",
+        "s3Key": "s3://laferia-docs/2027/122/estatutos-cofradia-de-la-plateria.pdf",
+        "sizeBytes": 1852460,
+        "uploadedAt": "2026-03-19T10:22:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-cofradia-de-la-plateria.pdf",
+        "s3Key": "s3://laferia-docs/2027/122/memoria-cofradia-de-la-plateria.pdf",
+        "sizeBytes": 2107998,
+        "uploadedAt": "2026-03-19T17:19:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-22T12:29:00.000Z"
+  },
+  {
+    "number": 123,
+    "name": "Cofradía de Las Marismas",
+    "cif": "R6058849H",
+    "description": "Punto de encuentro de socios y amigos con actuaciones de cante y baile en directo.",
+    "traditional": false,
+    "tags": [
+      "sevillanas",
+      "hermandad",
+      "peña"
+    ],
+    "status": "error",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-cofradia-de-las-marismas.pdf",
+        "s3Key": "s3://laferia-docs/2027/123/estatutos-cofradia-de-las-marismas.pdf",
+        "sizeBytes": 495431,
+        "uploadedAt": "2026-03-05T09:47:00.000Z",
+        "status": "error",
+        "reviewNotes": "Los estatutos no están visados por el registro de asociaciones."
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-cofradia-de-las-marismas.pdf",
+        "s3Key": "s3://laferia-docs/2027/123/memoria-cofradia-de-las-marismas.pdf",
+        "sizeBytes": 2122360,
+        "uploadedAt": "2026-03-05T15:37:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-08T12:01:00.000Z"
+  },
+  {
+    "number": 124,
+    "tags": [],
+    "status": "free",
+    "documents": []
+  },
+  {
+    "number": 125,
+    "name": "Hermandad de La Campiña",
+    "cif": "R9102090I",
+    "description": "Caseta pública abierta a todos los visitantes, con zona infantil y menú del día.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "vinos de Jerez",
+      "peña",
+      "sevillanas"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-hermandad-de-la-campina.pdf",
+        "s3Key": "s3://laferia-docs/2027/125/estatutos-hermandad-de-la-campina.pdf",
+        "sizeBytes": 1465616,
+        "uploadedAt": "2026-03-28T09:54:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-hermandad-de-la-campina.pdf",
+        "s3Key": "s3://laferia-docs/2027/125/memoria-hermandad-de-la-campina.pdf",
+        "sizeBytes": 2062590,
+        "uploadedAt": "2026-03-28T13:05:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-31T12:42:00.000Z"
+  },
+  {
+    "number": 126,
+    "name": "Peña El Clavel",
+    "cif": "G45625548",
+    "description": "Caseta de hermandad con decoración clásica de farolillos y mantones.",
+    "traditional": false,
+    "tags": [
+      "familiar",
+      "privada",
+      "pública",
+      "flamenco"
+    ],
+    "status": "error",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-pena-el-clavel.pdf",
+        "s3Key": "s3://laferia-docs/2027/126/estatutos-pena-el-clavel.pdf",
+        "sizeBytes": 1938855,
+        "uploadedAt": "2026-03-24T14:38:00.000Z",
+        "status": "error",
+        "reviewNotes": "Los estatutos no están visados por el registro de asociaciones."
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-pena-el-clavel.pdf",
+        "s3Key": "s3://laferia-docs/2027/126/memoria-pena-el-clavel.pdf",
+        "sizeBytes": 2067388,
+        "uploadedAt": "2026-03-24T09:50:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-27T12:15:00.000Z"
+  },
+  {
+    "number": 127,
+    "tags": [],
+    "status": "free",
+    "documents": []
+  },
+  {
+    "number": 128,
+    "name": "Asociación La Alegría",
+    "cif": "G99738890",
+    "description": "Caseta familiar con cocina tradicional andaluza y ambiente flamenco hasta la madrugada.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "accesible",
+      "sevillanas",
+      "privada",
+      "música en directo"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-asociacion-la-alegria.pdf",
+        "s3Key": "s3://laferia-docs/2027/128/estatutos-asociacion-la-alegria.pdf",
+        "sizeBytes": 2454295,
+        "uploadedAt": "2026-03-20T13:58:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-asociacion-la-alegria.pdf",
+        "s3Key": "s3://laferia-docs/2027/128/memoria-asociacion-la-alegria.pdf",
+        "sizeBytes": 2180640,
+        "uploadedAt": "2026-03-20T09:15:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-23T12:08:00.000Z"
+  },
+  {
+    "number": 129,
+    "name": "Cofradía de La Manzanilla",
+    "cif": "R9330356H",
+    "description": "Cocina de la tierra: pescaíto frito, tortillitas de camarones y rebujito.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "gastronomía",
+      "infantil",
+      "vinos de Jerez",
+      "cocina andaluza"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-cofradia-de-la-manzanilla.pdf",
+        "s3Key": "s3://laferia-docs/2027/129/estatutos-cofradia-de-la-manzanilla.pdf",
+        "sizeBytes": 1805548,
+        "uploadedAt": "2026-03-05T12:50:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-cofradia-de-la-manzanilla.pdf",
+        "s3Key": "s3://laferia-docs/2027/129/memoria-cofradia-de-la-manzanilla.pdf",
+        "sizeBytes": 1523240,
+        "uploadedAt": "2026-03-05T10:40:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-08T12:23:00.000Z"
+  },
+  {
+    "number": 130,
+    "name": "Cofradía de Los Bodegueros",
+    "cif": "R7481771I",
+    "description": "Punto de encuentro de socios y amigos con actuaciones de cante y baile en directo.",
+    "traditional": false,
+    "tags": [
+      "baile",
+      "accesible",
+      "música en directo"
+    ],
+    "status": "pending",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-cofradia-de-los-bodegueros.pdf",
+        "s3Key": "s3://laferia-docs/2027/130/estatutos-cofradia-de-los-bodegueros.pdf",
+        "sizeBytes": 1297614,
+        "uploadedAt": "2026-03-10T16:42:00.000Z",
+        "status": "pending"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-cofradia-de-los-bodegueros.pdf",
+        "s3Key": "s3://laferia-docs/2027/130/memoria-cofradia-de-los-bodegueros.pdf",
+        "sizeBytes": 1272226,
+        "uploadedAt": "2026-03-10T14:52:00.000Z",
+        "status": "pending"
+      }
+    ],
+    "updatedAt": "2026-03-13T12:54:00.000Z"
+  },
+  {
+    "number": 131,
+    "name": "Tertulia Los Palmeros",
+    "cif": "G56686785",
+    "description": "Cocina de la tierra: pescaíto frito, tortillitas de camarones y rebujito.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "familiar",
+      "mariscos",
+      "sevillanas"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-tertulia-los-palmeros.pdf",
+        "s3Key": "s3://laferia-docs/2027/131/estatutos-tertulia-los-palmeros.pdf",
+        "sizeBytes": 1940308,
+        "uploadedAt": "2026-03-11T15:34:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-tertulia-los-palmeros.pdf",
+        "s3Key": "s3://laferia-docs/2027/131/memoria-tertulia-los-palmeros.pdf",
+        "sizeBytes": 710491,
+        "uploadedAt": "2026-03-11T17:26:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-14T12:53:00.000Z"
+  },
+  {
+    "number": 132,
+    "name": "Club La Tribuna",
+    "cif": "G42049775",
+    "description": "Punto de encuentro de socios y amigos con actuaciones de cante y baile en directo.",
+    "traditional": false,
+    "tags": [
+      "infantil",
+      "familiar",
+      "vinos de Jerez",
+      "baile"
+    ],
+    "status": "error",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-club-la-tribuna.pdf",
+        "s3Key": "s3://laferia-docs/2027/132/estatutos-club-la-tribuna.pdf",
+        "sizeBytes": 2495658,
+        "uploadedAt": "2026-03-01T11:45:00.000Z",
+        "status": "error",
+        "reviewNotes": "Documento ilegible en las páginas 3 y 4."
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-club-la-tribuna.pdf",
+        "s3Key": "s3://laferia-docs/2027/132/memoria-club-la-tribuna.pdf",
+        "sizeBytes": 1479668,
+        "uploadedAt": "2026-03-01T16:45:00.000Z",
+        "status": "error",
+        "reviewNotes": "Falta el presupuesto de montaje y la póliza de responsabilidad civil."
+      }
+    ],
+    "updatedAt": "2026-03-04T12:43:00.000Z"
+  },
+  {
+    "number": 133,
+    "name": "Peña El Mosto",
+    "cif": "G68827237",
+    "description": "Caseta familiar con cocina tradicional andaluza y ambiente flamenco hasta la madrugada.",
+    "traditional": false,
+    "tags": [
+      "baile",
+      "pública"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-pena-el-mosto.pdf",
+        "s3Key": "s3://laferia-docs/2027/133/estatutos-pena-el-mosto.pdf",
+        "sizeBytes": 1449174,
+        "uploadedAt": "2026-03-15T09:26:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-pena-el-mosto.pdf",
+        "s3Key": "s3://laferia-docs/2027/133/memoria-pena-el-mosto.pdf",
+        "sizeBytes": 1182926,
+        "uploadedAt": "2026-03-15T16:53:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-18T12:07:00.000Z"
+  },
+  {
+    "number": 134,
+    "tags": [],
+    "status": "free",
+    "documents": []
+  },
+  {
+    "number": 135,
+    "name": "Asociación Cultural El Garbanzo",
+    "cif": "G17610809",
+    "description": "Cocina de la tierra: pescaíto frito, tortillitas de camarones y rebujito.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "baile",
+      "vinos de Jerez",
+      "privada"
+    ],
+    "status": "pending",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-asociacion-cultural-el-garbanzo.pdf",
+        "s3Key": "s3://laferia-docs/2027/135/estatutos-asociacion-cultural-el-garbanzo.pdf",
+        "sizeBytes": 1001463,
+        "uploadedAt": "2026-03-26T15:43:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-asociacion-cultural-el-garbanzo.pdf",
+        "s3Key": "s3://laferia-docs/2027/135/memoria-asociacion-cultural-el-garbanzo.pdf",
+        "sizeBytes": 1200712,
+        "uploadedAt": "2026-03-26T10:48:00.000Z",
+        "status": "pending"
+      }
+    ],
+    "updatedAt": "2026-03-29T12:57:00.000Z"
+  },
+  {
+    "number": 136,
+    "name": "Tertulia San Telmo",
+    "cif": "G42065607",
+    "description": "Caseta de hermandad con decoración clásica de farolillos y mantones.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "cocina andaluza",
+      "familiar",
+      "mariscos"
+    ],
+    "status": "pending",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-tertulia-san-telmo.pdf",
+        "s3Key": "s3://laferia-docs/2027/136/estatutos-tertulia-san-telmo.pdf",
+        "sizeBytes": 316568,
+        "uploadedAt": "2026-03-13T16:43:00.000Z",
+        "status": "pending"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-tertulia-san-telmo.pdf",
+        "s3Key": "s3://laferia-docs/2027/136/memoria-tertulia-san-telmo.pdf",
+        "sizeBytes": 1716213,
+        "uploadedAt": "2026-03-13T16:35:00.000Z",
+        "status": "pending"
+      }
+    ],
+    "updatedAt": "2026-03-16T12:40:00.000Z"
+  },
+  {
+    "number": 137,
+    "name": "Asociación Los Duendes",
+    "cif": "G02743045",
+    "description": "Caseta familiar con cocina tradicional andaluza y ambiente flamenco hasta la madrugada.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "familiar",
+      "gastronomía",
+      "pública",
+      "peña"
+    ],
+    "status": "error",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-asociacion-los-duendes.pdf",
+        "s3Key": "s3://laferia-docs/2027/137/estatutos-asociacion-los-duendes.pdf",
+        "sizeBytes": 1492862,
+        "uploadedAt": "2026-03-12T13:13:00.000Z",
+        "status": "error",
+        "reviewNotes": "Documento ilegible en las páginas 3 y 4."
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-asociacion-los-duendes.pdf",
+        "s3Key": "s3://laferia-docs/2027/137/memoria-asociacion-los-duendes.pdf",
+        "sizeBytes": 1141743,
+        "uploadedAt": "2026-03-12T09:35:00.000Z",
+        "status": "error",
+        "reviewNotes": "No se indica el aforo máximo previsto."
+      }
+    ],
+    "updatedAt": "2026-03-15T12:29:00.000Z"
+  },
+  {
+    "number": 138,
+    "name": "Club La Solera",
+    "cif": "G91848291",
+    "description": "Ambiente joven con sevillanas, rumba y una carta de vinos del Marco de Jerez.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "accesible",
+      "hermandad"
+    ],
+    "status": "error",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-club-la-solera.pdf",
+        "s3Key": "s3://laferia-docs/2027/138/estatutos-club-la-solera.pdf",
+        "sizeBytes": 2384172,
+        "uploadedAt": "2026-03-21T14:38:00.000Z",
+        "status": "error",
+        "reviewNotes": "Falta la firma del secretario en la última página."
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-club-la-solera.pdf",
+        "s3Key": "s3://laferia-docs/2027/138/memoria-club-la-solera.pdf",
+        "sizeBytes": 2223715,
+        "uploadedAt": "2026-03-21T10:56:00.000Z",
+        "status": "error",
+        "reviewNotes": "No se indica el aforo máximo previsto."
+      }
+    ],
+    "updatedAt": "2026-03-24T12:27:00.000Z"
+  },
+  {
+    "number": 139,
+    "tags": [],
+    "status": "free",
+    "documents": []
+  },
+  {
+    "number": 140,
+    "name": "Peña Caballista Santo Domingo",
+    "cif": "G47186846",
+    "description": "Caseta familiar con cocina tradicional andaluza y ambiente flamenco hasta la madrugada.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "vinos de Jerez",
+      "peña",
+      "baile"
+    ],
+    "status": "pending",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-pena-caballista-santo-domingo.pdf",
+        "s3Key": "s3://laferia-docs/2027/140/estatutos-pena-caballista-santo-domingo.pdf",
+        "sizeBytes": 1877482,
+        "uploadedAt": "2026-03-06T11:39:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-pena-caballista-santo-domingo.pdf",
+        "s3Key": "s3://laferia-docs/2027/140/memoria-pena-caballista-santo-domingo.pdf",
+        "sizeBytes": 1433265,
+        "uploadedAt": "2026-03-06T14:39:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-09T12:05:00.000Z"
+  },
+  {
+    "number": 141,
+    "tags": [],
+    "status": "free",
+    "documents": []
+  },
+  {
+    "number": 142,
+    "name": "Hermandad de El Chato",
+    "cif": "R3116856J",
+    "description": "Cocina de la tierra: pescaíto frito, tortillitas de camarones y rebujito.",
+    "traditional": false,
+    "tags": [
+      "accesible",
+      "mariscos",
+      "peña"
+    ],
+    "status": "error",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-hermandad-de-el-chato.pdf",
+        "s3Key": "s3://laferia-docs/2027/142/estatutos-hermandad-de-el-chato.pdf",
+        "sizeBytes": 1267710,
+        "uploadedAt": "2026-03-15T17:45:00.000Z",
+        "status": "error",
+        "reviewNotes": "Documento ilegible en las páginas 3 y 4."
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-hermandad-de-el-chato.pdf",
+        "s3Key": "s3://laferia-docs/2027/142/memoria-hermandad-de-el-chato.pdf",
+        "sizeBytes": 1412889,
+        "uploadedAt": "2026-03-15T10:38:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-18T12:51:00.000Z"
+  },
+  {
+    "number": 143,
+    "name": "Peña La Gitanería",
+    "cif": "G57933954",
+    "description": "Espacio dedicado al mundo del caballo con exhibiciones y tertulias ecuestres.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "vinos de Jerez",
+      "sevillanas"
+    ],
+    "status": "error",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-pena-la-gitaneria.pdf",
+        "s3Key": "s3://laferia-docs/2027/143/estatutos-pena-la-gitaneria.pdf",
+        "sizeBytes": 363998,
+        "uploadedAt": "2026-03-07T10:10:00.000Z",
+        "status": "error",
+        "reviewNotes": "Los estatutos no están visados por el registro de asociaciones."
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-pena-la-gitaneria.pdf",
+        "s3Key": "s3://laferia-docs/2027/143/memoria-pena-la-gitaneria.pdf",
+        "sizeBytes": 2096753,
+        "uploadedAt": "2026-03-07T11:09:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-10T12:09:00.000Z"
+  },
+  {
+    "number": 144,
+    "name": "Peña Los Cascabeles",
+    "cif": "G97815005",
+    "description": "Caseta de hermandad con decoración clásica de farolillos y mantones.",
+    "traditional": false,
+    "tags": [
+      "infantil",
+      "cocina andaluza",
+      "música en directo",
+      "accesible"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-pena-los-cascabeles.pdf",
+        "s3Key": "s3://laferia-docs/2027/144/estatutos-pena-los-cascabeles.pdf",
+        "sizeBytes": 1390617,
+        "uploadedAt": "2026-03-23T17:37:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-pena-los-cascabeles.pdf",
+        "s3Key": "s3://laferia-docs/2027/144/memoria-pena-los-cascabeles.pdf",
+        "sizeBytes": 1706956,
+        "uploadedAt": "2026-03-23T16:59:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-26T12:57:00.000Z"
+  },
+  {
+    "number": 145,
+    "name": "Peña Flamenca La Sacristía",
+    "cif": "G96642012",
+    "description": "Caseta familiar con cocina tradicional andaluza y ambiente flamenco hasta la madrugada.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "familiar",
+      "pública"
+    ],
+    "status": "pending",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-pena-flamenca-la-sacristia.pdf",
+        "s3Key": "s3://laferia-docs/2027/145/estatutos-pena-flamenca-la-sacristia.pdf",
+        "sizeBytes": 290473,
+        "uploadedAt": "2026-03-15T09:09:00.000Z",
+        "status": "pending"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-pena-flamenca-la-sacristia.pdf",
+        "s3Key": "s3://laferia-docs/2027/145/memoria-pena-flamenca-la-sacristia.pdf",
+        "sizeBytes": 382152,
+        "uploadedAt": "2026-03-15T10:02:00.000Z",
+        "status": "pending"
+      }
+    ],
+    "updatedAt": "2026-03-18T12:13:00.000Z"
+  },
+  {
+    "number": 146,
+    "name": "Tertulia El Tablao",
+    "cif": "G83375543",
+    "description": "Caseta de hermandad con decoración clásica de farolillos y mantones.",
+    "traditional": false,
+    "tags": [
+      "mariscos",
+      "infantil",
+      "familiar",
+      "peña"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-tertulia-el-tablao.pdf",
+        "s3Key": "s3://laferia-docs/2027/146/estatutos-tertulia-el-tablao.pdf",
+        "sizeBytes": 1799286,
+        "uploadedAt": "2026-03-08T11:22:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-tertulia-el-tablao.pdf",
+        "s3Key": "s3://laferia-docs/2027/146/memoria-tertulia-el-tablao.pdf",
+        "sizeBytes": 891001,
+        "uploadedAt": "2026-03-08T14:53:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-11T12:41:00.000Z"
+  },
+  {
+    "number": 147,
+    "name": "Asociación Cultural Los Moriscos",
+    "cif": "G68894757",
+    "description": "Ambiente joven con sevillanas, rumba y una carta de vinos del Marco de Jerez.",
+    "traditional": false,
+    "tags": [
+      "música en directo",
+      "familiar",
+      "mariscos",
+      "infantil"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-asociacion-cultural-los-moriscos.pdf",
+        "s3Key": "s3://laferia-docs/2027/147/estatutos-asociacion-cultural-los-moriscos.pdf",
+        "sizeBytes": 2035520,
+        "uploadedAt": "2026-03-01T09:49:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-asociacion-cultural-los-moriscos.pdf",
+        "s3Key": "s3://laferia-docs/2027/147/memoria-asociacion-cultural-los-moriscos.pdf",
+        "sizeBytes": 1848638,
+        "uploadedAt": "2026-03-01T13:31:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-04T12:46:00.000Z"
+  },
+  {
+    "number": 148,
+    "name": "Peña Flamenca El Palo Cortado",
+    "cif": "G76172998",
+    "description": "Ambiente joven con sevillanas, rumba y una carta de vinos del Marco de Jerez.",
+    "traditional": false,
+    "tags": [
+      "infantil",
+      "gastronomía",
+      "cocina andaluza",
+      "flamenco"
+    ],
+    "status": "error",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-pena-flamenca-el-palo-cortado.pdf",
+        "s3Key": "s3://laferia-docs/2027/148/estatutos-pena-flamenca-el-palo-cortado.pdf",
+        "sizeBytes": 1093515,
+        "uploadedAt": "2026-03-11T11:15:00.000Z",
+        "status": "error",
+        "reviewNotes": "Falta la firma del secretario en la última página."
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-pena-flamenca-el-palo-cortado.pdf",
+        "s3Key": "s3://laferia-docs/2027/148/memoria-pena-flamenca-el-palo-cortado.pdf",
+        "sizeBytes": 943071,
+        "uploadedAt": "2026-03-11T14:20:00.000Z",
+        "status": "error",
+        "reviewNotes": "Falta el presupuesto de montaje y la póliza de responsabilidad civil."
+      }
+    ],
+    "updatedAt": "2026-03-14T12:23:00.000Z"
+  },
+  {
+    "number": 149,
+    "name": "Club El Sevillano",
+    "cif": "G18351718",
+    "description": "Punto de encuentro de socios y amigos con actuaciones de cante y baile en directo.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "cocina andaluza",
+      "familiar",
+      "peña",
+      "sevillanas"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-club-el-sevillano.pdf",
+        "s3Key": "s3://laferia-docs/2027/149/estatutos-club-el-sevillano.pdf",
+        "sizeBytes": 1154560,
+        "uploadedAt": "2026-03-14T17:15:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-club-el-sevillano.pdf",
+        "s3Key": "s3://laferia-docs/2027/149/memoria-club-el-sevillano.pdf",
+        "sizeBytes": 1136575,
+        "uploadedAt": "2026-03-14T09:15:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-17T12:45:00.000Z"
+  },
+  {
+    "number": 150,
+    "name": "Peña Flamenca La Solera",
+    "cif": "G78748829",
+    "description": "Ambiente joven con sevillanas, rumba y una carta de vinos del Marco de Jerez.",
+    "traditional": false,
+    "tags": [
+      "baile",
+      "mariscos",
+      "hermandad"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-pena-flamenca-la-solera.pdf",
+        "s3Key": "s3://laferia-docs/2027/150/estatutos-pena-flamenca-la-solera.pdf",
+        "sizeBytes": 1729239,
+        "uploadedAt": "2026-03-22T17:37:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-pena-flamenca-la-solera.pdf",
+        "s3Key": "s3://laferia-docs/2027/150/memoria-pena-flamenca-la-solera.pdf",
+        "sizeBytes": 372711,
+        "uploadedAt": "2026-03-22T11:58:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-25T12:10:00.000Z"
+  },
+  {
+    "number": 151,
+    "name": "Cofradía de La Solera",
+    "cif": "R7287491J",
+    "description": "Caseta familiar con cocina tradicional andaluza y ambiente flamenco hasta la madrugada.",
+    "traditional": false,
+    "tags": [
+      "familiar",
+      "música en directo",
+      "pública",
+      "hermandad"
+    ],
+    "status": "pending",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-cofradia-de-la-solera.pdf",
+        "s3Key": "s3://laferia-docs/2027/151/estatutos-cofradia-de-la-solera.pdf",
+        "sizeBytes": 2463535,
+        "uploadedAt": "2026-03-05T13:43:00.000Z",
+        "status": "pending"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-cofradia-de-la-solera.pdf",
+        "s3Key": "s3://laferia-docs/2027/151/memoria-cofradia-de-la-solera.pdf",
+        "sizeBytes": 2068095,
+        "uploadedAt": "2026-03-05T11:42:00.000Z",
+        "status": "pending"
+      }
+    ],
+    "updatedAt": "2026-03-08T12:13:00.000Z"
+  },
+  {
+    "number": 152,
+    "name": "Club Los Novilleros",
+    "cif": "G09176702",
+    "description": "Ambiente joven con sevillanas, rumba y una carta de vinos del Marco de Jerez.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "familiar",
+      "música en directo"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-club-los-novilleros.pdf",
+        "s3Key": "s3://laferia-docs/2027/152/estatutos-club-los-novilleros.pdf",
+        "sizeBytes": 1777283,
+        "uploadedAt": "2026-03-08T17:42:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-club-los-novilleros.pdf",
+        "s3Key": "s3://laferia-docs/2027/152/memoria-club-los-novilleros.pdf",
+        "sizeBytes": 1341381,
+        "uploadedAt": "2026-03-08T12:55:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-11T12:56:00.000Z"
+  },
+  {
+    "number": 153,
+    "tags": [],
+    "status": "free",
+    "documents": []
+  },
+  {
+    "number": 154,
+    "name": "Asociación El Mantoncillo",
+    "cif": "G93115012",
+    "description": "Cocina de la tierra: pescaíto frito, tortillitas de camarones y rebujito.",
+    "traditional": false,
+    "tags": [
+      "baile",
+      "familiar",
+      "pública"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-asociacion-el-mantoncillo.pdf",
+        "s3Key": "s3://laferia-docs/2027/154/estatutos-asociacion-el-mantoncillo.pdf",
+        "sizeBytes": 536650,
+        "uploadedAt": "2026-03-12T13:31:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-asociacion-el-mantoncillo.pdf",
+        "s3Key": "s3://laferia-docs/2027/154/memoria-asociacion-el-mantoncillo.pdf",
+        "sizeBytes": 1066967,
+        "uploadedAt": "2026-03-12T10:11:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-15T12:55:00.000Z"
+  },
+  {
+    "number": 155,
+    "name": "Asociación Santiago",
+    "cif": "G38452785",
+    "description": "Caseta familiar con cocina tradicional andaluza y ambiente flamenco hasta la madrugada.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "pública",
+      "baile",
+      "privada"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-asociacion-santiago.pdf",
+        "s3Key": "s3://laferia-docs/2027/155/estatutos-asociacion-santiago.pdf",
+        "sizeBytes": 1741227,
+        "uploadedAt": "2026-03-19T09:12:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-asociacion-santiago.pdf",
+        "s3Key": "s3://laferia-docs/2027/155/memoria-asociacion-santiago.pdf",
+        "sizeBytes": 375366,
+        "uploadedAt": "2026-03-19T15:20:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-22T12:37:00.000Z"
+  },
+  {
+    "number": 156,
+    "name": "Peña La Calesa",
+    "cif": "G65657975",
+    "description": "Caseta de hermandad con decoración clásica de farolillos y mantones.",
+    "traditional": false,
+    "tags": [
+      "accesible",
+      "familiar",
+      "sevillanas",
+      "pública"
+    ],
+    "status": "error",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-pena-la-calesa.pdf",
+        "s3Key": "s3://laferia-docs/2027/156/estatutos-pena-la-calesa.pdf",
+        "sizeBytes": 516914,
+        "uploadedAt": "2026-03-10T14:58:00.000Z",
+        "status": "error",
+        "reviewNotes": "Los estatutos no están visados por el registro de asociaciones."
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-pena-la-calesa.pdf",
+        "s3Key": "s3://laferia-docs/2027/156/memoria-pena-la-calesa.pdf",
+        "sizeBytes": 1030060,
+        "uploadedAt": "2026-03-10T09:19:00.000Z",
+        "status": "error",
+        "reviewNotes": "La memoria no incluye el plano de distribución interior."
+      }
+    ],
+    "updatedAt": "2026-03-13T12:08:00.000Z"
+  },
+  {
+    "number": 157,
+    "name": "Tertulia La Fragua",
+    "cif": "G02922854",
+    "description": "Ambiente joven con sevillanas, rumba y una carta de vinos del Marco de Jerez.",
+    "traditional": false,
+    "tags": [
+      "privada",
+      "accesible"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-tertulia-la-fragua.pdf",
+        "s3Key": "s3://laferia-docs/2027/157/estatutos-tertulia-la-fragua.pdf",
+        "sizeBytes": 159201,
+        "uploadedAt": "2026-03-20T16:41:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-tertulia-la-fragua.pdf",
+        "s3Key": "s3://laferia-docs/2027/157/memoria-tertulia-la-fragua.pdf",
+        "sizeBytes": 1543872,
+        "uploadedAt": "2026-03-20T12:03:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-23T12:56:00.000Z"
+  },
+  {
+    "number": 158,
+    "name": "Asociación La Jaca",
+    "cif": "G43345057",
+    "description": "Espacio dedicado al mundo del caballo con exhibiciones y tertulias ecuestres.",
+    "traditional": false,
+    "tags": [
+      "cocina andaluza",
+      "infantil"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-asociacion-la-jaca.pdf",
+        "s3Key": "s3://laferia-docs/2027/158/estatutos-asociacion-la-jaca.pdf",
+        "sizeBytes": 211853,
+        "uploadedAt": "2026-03-10T14:16:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-asociacion-la-jaca.pdf",
+        "s3Key": "s3://laferia-docs/2027/158/memoria-asociacion-la-jaca.pdf",
+        "sizeBytes": 312082,
+        "uploadedAt": "2026-03-10T17:19:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-13T12:10:00.000Z"
+  },
+  {
+    "number": 159,
+    "tags": [],
+    "status": "free",
+    "documents": []
+  },
+  {
+    "number": 160,
+    "tags": [],
+    "status": "free",
+    "documents": []
+  },
+  {
+    "number": 161,
+    "tags": [],
+    "status": "free",
+    "documents": []
+  },
+  {
+    "number": 162,
+    "tags": [],
+    "status": "free",
+    "documents": []
+  },
+  {
+    "number": 163,
+    "name": "Peña Flamenca Los Toneles",
+    "cif": "G71755755",
+    "description": "Caseta de hermandad con decoración clásica de farolillos y mantones.",
+    "traditional": false,
+    "tags": [
+      "flamenco",
+      "familiar",
+      "accesible"
+    ],
+    "status": "pending",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-pena-flamenca-los-toneles.pdf",
+        "s3Key": "s3://laferia-docs/2027/163/estatutos-pena-flamenca-los-toneles.pdf",
+        "sizeBytes": 1456251,
+        "uploadedAt": "2026-03-15T13:42:00.000Z",
+        "status": "pending"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-pena-flamenca-los-toneles.pdf",
+        "s3Key": "s3://laferia-docs/2027/163/memoria-pena-flamenca-los-toneles.pdf",
+        "sizeBytes": 269233,
+        "uploadedAt": "2026-03-15T09:28:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-18T12:57:00.000Z"
+  },
+  {
+    "number": 164,
+    "name": "Hermandad de Los Corrales",
+    "cif": "R4869922G",
+    "description": "Punto de encuentro de socios y amigos con actuaciones de cante y baile en directo.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "familiar",
+      "música en directo"
+    ],
+    "status": "error",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-hermandad-de-los-corrales.pdf",
+        "s3Key": "s3://laferia-docs/2027/164/estatutos-hermandad-de-los-corrales.pdf",
+        "sizeBytes": 164216,
+        "uploadedAt": "2026-03-28T13:52:00.000Z",
+        "status": "error",
+        "reviewNotes": "Los estatutos no están visados por el registro de asociaciones."
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-hermandad-de-los-corrales.pdf",
+        "s3Key": "s3://laferia-docs/2027/164/memoria-hermandad-de-los-corrales.pdf",
+        "sizeBytes": 2219997,
+        "uploadedAt": "2026-03-28T12:43:00.000Z",
+        "status": "error",
+        "reviewNotes": "Falta el presupuesto de montaje y la póliza de responsabilidad civil."
+      }
+    ],
+    "updatedAt": "2026-03-31T12:58:00.000Z"
+  },
+  {
+    "number": 165,
+    "name": "Círculo El Catavino",
+    "cif": "G42465971",
+    "description": "Caseta familiar con cocina tradicional andaluza y ambiente flamenco hasta la madrugada.",
+    "traditional": false,
+    "tags": [
+      "cocina andaluza",
+      "hermandad"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-circulo-el-catavino.pdf",
+        "s3Key": "s3://laferia-docs/2027/165/estatutos-circulo-el-catavino.pdf",
+        "sizeBytes": 1477320,
+        "uploadedAt": "2026-03-22T10:58:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-circulo-el-catavino.pdf",
+        "s3Key": "s3://laferia-docs/2027/165/memoria-circulo-el-catavino.pdf",
+        "sizeBytes": 1110713,
+        "uploadedAt": "2026-03-22T11:35:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-25T12:07:00.000Z"
+  },
+  {
+    "number": 166,
+    "tags": [],
+    "status": "free",
+    "documents": []
+  },
+  {
+    "number": 167,
+    "tags": [],
+    "status": "free",
+    "documents": []
+  },
+  {
+    "number": 168,
+    "name": "Tertulia El Picadero",
+    "cif": "G79059267",
+    "description": "Espacio dedicado al mundo del caballo con exhibiciones y tertulias ecuestres.",
+    "traditional": false,
+    "tags": [
+      "baile",
+      "peña"
+    ],
+    "status": "pending",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-tertulia-el-picadero.pdf",
+        "s3Key": "s3://laferia-docs/2027/168/estatutos-tertulia-el-picadero.pdf",
+        "sizeBytes": 1591200,
+        "uploadedAt": "2026-03-09T15:31:00.000Z",
+        "status": "pending"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-tertulia-el-picadero.pdf",
+        "s3Key": "s3://laferia-docs/2027/168/memoria-tertulia-el-picadero.pdf",
+        "sizeBytes": 926079,
+        "uploadedAt": "2026-03-09T15:58:00.000Z",
+        "status": "pending"
+      }
+    ],
+    "updatedAt": "2026-03-12T12:09:00.000Z"
+  },
+  {
+    "number": 169,
+    "name": "Círculo La Hacienda",
+    "cif": "G29031879",
+    "description": "Cocina de la tierra: pescaíto frito, tortillitas de camarones y rebujito.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "cocina andaluza",
+      "mariscos"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-circulo-la-hacienda.pdf",
+        "s3Key": "s3://laferia-docs/2027/169/estatutos-circulo-la-hacienda.pdf",
+        "sizeBytes": 1079714,
+        "uploadedAt": "2026-03-18T16:33:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-circulo-la-hacienda.pdf",
+        "s3Key": "s3://laferia-docs/2027/169/memoria-circulo-la-hacienda.pdf",
+        "sizeBytes": 495231,
+        "uploadedAt": "2026-03-18T09:10:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-21T12:39:00.000Z"
+  },
+  {
+    "number": 170,
+    "name": "Círculo San Pedro",
+    "cif": "G34932053",
+    "description": "Caseta de hermandad con decoración clásica de farolillos y mantones.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "pública",
+      "accesible",
+      "mariscos",
+      "peña"
+    ],
+    "status": "error",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-circulo-san-pedro.pdf",
+        "s3Key": "s3://laferia-docs/2027/170/estatutos-circulo-san-pedro.pdf",
+        "sizeBytes": 1494802,
+        "uploadedAt": "2026-03-16T09:05:00.000Z",
+        "status": "error",
+        "reviewNotes": "Documento ilegible en las páginas 3 y 4."
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-circulo-san-pedro.pdf",
+        "s3Key": "s3://laferia-docs/2027/170/memoria-circulo-san-pedro.pdf",
+        "sizeBytes": 1641327,
+        "uploadedAt": "2026-03-16T11:15:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-19T12:16:00.000Z"
+  },
+  {
+    "number": 171,
+    "name": "Tertulia El Polo",
+    "cif": "G66521303",
+    "description": "Cocina de la tierra: pescaíto frito, tortillitas de camarones y rebujito.",
+    "traditional": false,
+    "tags": [
+      "familiar",
+      "privada"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-tertulia-el-polo.pdf",
+        "s3Key": "s3://laferia-docs/2027/171/estatutos-tertulia-el-polo.pdf",
+        "sizeBytes": 1653483,
+        "uploadedAt": "2026-03-06T12:58:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-tertulia-el-polo.pdf",
+        "s3Key": "s3://laferia-docs/2027/171/memoria-tertulia-el-polo.pdf",
+        "sizeBytes": 933300,
+        "uploadedAt": "2026-03-06T10:48:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-09T12:21:00.000Z"
+  },
+  {
+    "number": 172,
+    "name": "Asociación Cultural La Albariza",
+    "cif": "G54633318",
+    "description": "Ambiente joven con sevillanas, rumba y una carta de vinos del Marco de Jerez.",
+    "traditional": false,
+    "tags": [
+      "accesible",
+      "cocina andaluza"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-asociacion-cultural-la-albariza.pdf",
+        "s3Key": "s3://laferia-docs/2027/172/estatutos-asociacion-cultural-la-albariza.pdf",
+        "sizeBytes": 1236275,
+        "uploadedAt": "2026-03-04T09:32:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-asociacion-cultural-la-albariza.pdf",
+        "s3Key": "s3://laferia-docs/2027/172/memoria-asociacion-cultural-la-albariza.pdf",
+        "sizeBytes": 1030805,
+        "uploadedAt": "2026-03-04T14:16:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-07T12:28:00.000Z"
+  },
+  {
+    "number": 173,
+    "tags": [],
+    "status": "free",
+    "documents": []
+  },
+  {
+    "number": 174,
+    "name": "Círculo La Solera",
+    "cif": "G36418143",
+    "description": "Ambiente joven con sevillanas, rumba y una carta de vinos del Marco de Jerez.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "pública",
+      "familiar",
+      "gastronomía"
+    ],
+    "status": "approved",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-circulo-la-solera.pdf",
+        "s3Key": "s3://laferia-docs/2027/174/estatutos-circulo-la-solera.pdf",
+        "sizeBytes": 2544207,
+        "uploadedAt": "2026-03-03T15:49:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-circulo-la-solera.pdf",
+        "s3Key": "s3://laferia-docs/2027/174/memoria-circulo-la-solera.pdf",
+        "sizeBytes": 425839,
+        "uploadedAt": "2026-03-03T17:52:00.000Z",
+        "status": "approved"
+      }
+    ],
+    "updatedAt": "2026-03-06T12:51:00.000Z"
+  },
+  {
+    "number": 175,
+    "name": "Cofradía de Los Cascabeles",
+    "cif": "R5062726D",
+    "description": "Cocina de la tierra: pescaíto frito, tortillitas de camarones y rebujito.",
+    "traditional": true,
+    "tags": [
+      "tradicional",
+      "accesible",
+      "pública"
+    ],
+    "status": "pending",
+    "documents": [
+      {
+        "type": "estatutos",
+        "fileName": "estatutos-cofradia-de-los-cascabeles.pdf",
+        "s3Key": "s3://laferia-docs/2027/175/estatutos-cofradia-de-los-cascabeles.pdf",
+        "sizeBytes": 2349502,
+        "uploadedAt": "2026-03-03T16:12:00.000Z",
+        "status": "approved"
+      },
+      {
+        "type": "memoria",
+        "fileName": "memoria-cofradia-de-los-cascabeles.pdf",
+        "s3Key": "s3://laferia-docs/2027/175/memoria-cofradia-de-los-cascabeles.pdf",
+        "sizeBytes": 1128930,
+        "uploadedAt": "2026-03-03T11:43:00.000Z",
+        "status": "pending"
+      }
+    ],
+    "updatedAt": "2026-03-06T12:57:00.000Z"
+  }
+]
