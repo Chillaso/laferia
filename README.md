@@ -21,3 +21,10 @@ npm run dev
 
 ## Map
 Caseta positions live in `src/data/mapLayout.ts` in the pixel space of `public/feria-map.webp` (1168×806). Open `/gestion?debug=1` to show outlines when adjusting them.
+
+## Deployment
+Every push to `main` builds and publishes the site to GitHub Pages via `.github/workflows/deploy-pages.yml` (https://chillaso.github.io/laferia/).
+
+- One-time setup: in the repository go to **Settings → Pages → Build and deployment** and set **Source** to **GitHub Actions**.
+- The workflow builds with the Pages base path (`/laferia/`) and copies `index.html` to `404.html` so deep links such as `/laferia/gestion?caseta=87` work.
+- Local development is unaffected and still runs at `/`.

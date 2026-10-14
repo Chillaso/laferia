@@ -33,7 +33,7 @@ export function FeriaMap({ casetas, selected, highlighted, onSelect, debug }: Fe
         style={{ aspectRatio: `${MAP_WIDTH} / ${MAP_HEIGHT}` }}
       >
         <img
-          src="/feria-map.webp"
+          src={`${import.meta.env.BASE_URL}feria-map.webp`}
           alt="Plano del Real de la Feria del Caballo de Jerez"
           className="absolute inset-0 size-full rounded-[10px] select-none"
           draggable={false}
