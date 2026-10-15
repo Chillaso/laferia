@@ -32,15 +32,36 @@ function writeSubmissions(casetas: Caseta[]) {
   }
 }
 
-export function matchesQuery(caseta: Caseta, query: string) {
+/**
+ * Relevance of a caseta for a query, or 0 when it doesn't match.
+ * Numbers match by prefix ("1" → 1, 10…19, 100…), names by every word
+ * ("pena real" → "Peña El Real"), CIFs by substring.
+ */
+function scoreMatch(caseta: Caseta, query: string) {
   const q = normalize(query)
-  if (!q) return false
-  if (/^\d+$/.test(q)) return String(caseta.number).startsWith(q)
+  if (!q) return 0
+  if (/^\d+$/.test(q)) {
+    const number = String(Number(q)) // "007" → "7"
+    const own = String(caseta.number)
+    if (own === number) return 3
+    return own.startsWith(number) ? 1 : 0
+  }
   const cifQuery = normalizeCif(query)
-  return (
-    (caseta.name !== undefined && normalize(caseta.name).includes(q)) ||
-    (caseta.cif !== undefined && cifQuery.length >= 2 && caseta.cif.includes(cifQuery))
-  )
+  if (caseta.cif && cifQuery.length >= 2 && caseta.cif.includes(cifQuery)) return caseta.cif === cifQuery ? 3 : 2
+  if (!caseta.name) return 0
+  const name = normalize(caseta.name)
+  const words = q.split(/\s+/)
+  if (!words.every((w) => name.includes(w))) return 0
+  return name.startsWith(q) || name.split(/\s+/).some((w) => w.startsWith(words[0])) ? 2 : 1
+}
+
+/** Matching casetas, best matches first, then by number. */
+export function searchCasetas(casetas: Caseta[], query: string) {
+  return casetas
+    .map((caseta) => ({ caseta, score: scoreMatch(caseta, query) }))
+    .filter((r) => r.score > 0)
+    .sort((a, b) => b.score - a.score || a.caseta.number - b.caseta.number)
+    .map((r) => r.caseta)
 }
 
 class MockCasetaRepository implements CasetaRepository {
@@ -63,7 +84,7 @@ class MockCasetaRepository implements CasetaRepository {
   }
 
   async search(query: string) {
-    return this.snapshot().filter((c) => matchesQuery(c, query))
+    return searchCasetas(this.snapshot(), query)
   }
 
   async submit(submission: CasetaSubmission): Promise<SubmissionResult> {
