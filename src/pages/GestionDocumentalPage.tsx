@@ -7,7 +7,7 @@ import { FeriaMap } from '@/components/map/FeriaMap'
 import { StatusBar } from '@/components/map/StatusBar'
 import { Button } from '@/components/ui/button'
 import { STATUS_META, STATUS_ORDER } from '@/lib/status'
-import { casetaRepository, matchesQuery } from '@/services/casetaService'
+import { casetaRepository, searchCasetas } from '@/services/casetaService'
 import type { Caseta, DocStatus } from '@/types/caseta'
 
 export function GestionDocumentalPage() {
@@ -35,19 +35,21 @@ export function GestionDocumentalPage() {
     return initial
   }, [casetas])
 
-  const searchResults = useMemo(
-    () => (casetas ?? []).filter((c) => matchesQuery(c, deferredQuery)),
-    [casetas, deferredQuery],
+  const hasQuery = deferredQuery.trim().length > 0
+
+  // Casetas passing the status chips; the search narrows this same pool, so the
+  // dropdown and the highlighted map always agree.
+  const statusPool = useMemo(
+    () => (casetas ?? []).filter((c) => statusFilter.size === 0 || statusFilter.has(c.status)),
+    [casetas, statusFilter],
   )
 
+  const searchResults = useMemo(() => searchCasetas(statusPool, deferredQuery), [statusPool, deferredQuery])
+
   const highlighted = useMemo(() => {
-    const hasQuery = deferredQuery.trim().length > 0
     if (!hasQuery && statusFilter.size === 0) return undefined
-    const pool = hasQuery ? searchResults : (casetas ?? [])
-    return new Set(
-      pool.filter((c) => statusFilter.size === 0 || statusFilter.has(c.status)).map((c) => c.number),
-    )
-  }, [casetas, deferredQuery, searchResults, statusFilter])
+    return new Set((hasQuery ? searchResults : statusPool).map((c) => c.number))
+  }, [hasQuery, searchResults, statusPool, statusFilter])
 
   const updateSelection = (number: number | undefined) =>
     setParams(
